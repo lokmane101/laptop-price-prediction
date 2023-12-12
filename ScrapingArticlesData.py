@@ -10,12 +10,12 @@ def preprocess_att(discription) :
         attr_elements[i]=attr_elements[i].strip().lower()   
         
     print(attr_elements) 
-    if (('mémoire' in attr_elements)  and (('vivre' in attr_elements) | ('vive' in attr_elements  )|('interne' in attr_elements)) and (len(attr_elements)==2)) | (('ram' in attr_elements) and ('emplacements' not in attr_elements)  )| (('memoire' in attr_elements )  and (('vivre' in attr_elements  ) |('vive' in attr_elements  )|('interne' in attr_elements))) |(('taille' in attr_elements)  and (('mémoire' in attr_elements))and (len(attr_elements)==2) )|(('ram' in attr_elements) and (len(attr_elements)==1) ):
+    if ((('mémoire' in attr_elements)  and (('vivre' in attr_elements) | ('vive' in attr_elements  )|('interne' in attr_elements) |('RAM' in attr_elements))  and (len(attr_elements)==2)) | (('ram' in attr_elements) and ('emplacements' not in attr_elements)  )| (('memoire' in attr_elements )  and (('vivre' in attr_elements  ) |('vive' in attr_elements  )|('interne' in attr_elements))) |(('taille' in attr_elements)  and (('mémoire' in attr_elements))and (len(attr_elements)==2) )|(('ram' in attr_elements) and (len(attr_elements)==1))| (('Mémoire' and 'vive' and 'installée' )in attr_elements )):
         attr='RAM'
     for c in ('cpu','Processeur'):
         if ((c in attr_elements and len(attr_elements)==1)| ((c+'.') in attr_elements)):
             attr='TypeCPU'
-    if (('disque' in attr_elements  and (('dure' in attr_elements) | ('dur' in attr_elements )) and len(attr_elements)==2) | ('memoire' in attr_elements )|(('stockage' in attr_elements) and ( (len(attr_elements))==1) ) | ('memoire' in attr_elements )  ):
+    if (('disque' in attr_elements  and (('dure' in attr_elements) | ('dur' in attr_elements )) and len(attr_elements)==2) | ('memoire' in attr_elements )|(('stockage' in attr_elements) and ( (len(attr_elements))==1) ) | ('memoire' in attr_elements )| ('Capacité'and 'SSD') in attr_elements  ):
         attr='STOCKAGE'
     if ((('contrôleur' in attr_elements)  and ('graphique' in attr_elements) and (len(attr_elements)==2)) | (('carte' in attr_elements )  and ('graphique' in attr_elements  ) and ( (len(attr_elements)==2))) | (('gpu' in attr_elements)and (len(attr_elements)==1) )):
         attr='GPU'
@@ -48,7 +48,7 @@ def get_rate(link) :
             return rate.get_text(strip=True)
     except:
         return None
-def get_info(description,i):
+def get_info(description):
     attr_value = []
     pairs=[]
 # --------------spliting sur les ':' si possible sinon on split sur des espaces '  ' ,sinon on divise pas -----------------------------------------------------
@@ -68,18 +68,27 @@ def get_info(description,i):
             pairs[i] = pairs[i].strip()
 
     if not pairs:
-        i = i + 1
-        k = str(i)
-        pairs = ['nom' + k, description]
+        pairs = ['uknown :'+ description]
     print(pairs)
+    if pairs[0]:
 #---------------les clés de dictionnaire qui continent les valeurs des attribut de chaque article doivent être passé  par process_att-------------
-    key = preprocess_att(pairs[0])
-    print(key)
+        key = preprocess_att(pairs[0])
+        print(key)
     if key in ['MARK','RAM','typeRam','TypeCPU','GenerationCPU','GPU','STOCKAGE','TypeStockage','COULEUR','POIDS','ECRAN','PRIX','RATE'] : 
         attr_value.append(key)
         attr_value.append(pairs[1])
         
     return attr_value 
+def check_ram_type(ram_value):
+# Checks if the ram_value contains "DDR3" or "DDR4" and returns the corresponding RAM type.
+  ddr3_match = re.search(r'DDR3', ram_value)
+  ddr4_match = re.search(r'DDR4', ram_value)
+  if ddr3_match:
+    return "DDR3"
+  elif ddr4_match:
+    return "DDR4"
+  else:
+    return None
 
 
 Linksfile = 'LINKS2.txt'
@@ -111,7 +120,7 @@ with open(Linksfile, 'r') as file:
                 print(text_content)
                 info=[]
                 try:
-                    info=get_info(text_content,i)
+                    info=get_info(text_content)
                     if info:
                         article_info[info[0]]=info[1]
                 except:
@@ -128,12 +137,16 @@ with open(Linksfile, 'r') as file:
                 print(text_content)
                 info=[]
                 try:
-                    info=get_info(text_content,i)
+                    info=get_info(text_content)
                     if info:
                         article_info[info[0]]=info[1]
                 except:
                     print()
             df=df._append(article_info, ignore_index=True)
+        # Apply the function to the "ram" column
+        df['typeram'] = df['ram'].apply(check_ram_type)
+        
+        
         df.to_excel('output.xlsx', index=False)        
 
 
