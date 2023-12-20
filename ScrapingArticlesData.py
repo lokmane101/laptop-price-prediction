@@ -30,14 +30,23 @@ def preprocess_att(discription) :
         attr='COULEUR'
     
     return attr
+def get_mark(link):
+    page = requests.get(link.strip())  
+    soup = BeautifulSoup(page.content, 'lxml')
+    try:
+        mark = soup.find("h1", {'class': '-fs20 -pts -pbxs'})
+        if mark is not None:
+            return mark.get_text(strip=True).split(' ')[0]
+    except:
+        return None
 def extract(description):
     AttrAndValue={}
-    Mark_pattern=re.compile(r'(mod(é|è|e)le?)|(mar(k|que))')
-    CPU_pattern=re.compile(r'(cpu|processeur)')
+    Mark_pattern=re.compile(r'(mar(k|que))')
+    CPU_pattern=re.compile(r'(cpu|processeur|intel|ryzen)')
     RAM_pattern=re.compile(r'(ram)|(m(é|e)moire((vivre|vive|)?(interne)?(installé)?)).')
-    
-    StockageSSD_pattern=re.compile(r'(disque?dure?)|(m(e|é)moire)|(stockage?)|(capacité?(ssd|stockage)|(ssd))')
-    StockageHDD_pattern=re.compile(r'(disque?dure?)|(m(e|é)moire)|(stockage?)|(capacité?(hdd|stockage)|(hdd))')
+    StockageSSD_pattern = re.compile(r'(((disque?dure?)|(m(e|é)moire)|(stockage?)|(capacité?stockage))*\w*\W*ssd\w*\W*((disque?dure?)|(m(e|é)moire)|(stockage?)|(capacité?(ssd|stockage)))*)')
+    StockageHDD_pattern = re.compile(r'(((disque?dure?)|(m(e|é)moire)|(stockage?)|(capacité?stockage))*\w*\W*(hdd|sata)\w*\W*((disque?dure?)|(m(e|é)moire)|(stockage?)|(capacité?(ssd|stockage)))*)')
+    Stockage_pattern=re.compile(r'(disque?dure?)|(m(e|é)moire)|(stockage?)|(capacité?((hdd|sdd)|stockage)*|(hdd|sdd))')
     GPU_pattern=re.compile(r'(gpu)|(((contr(o|ô)leure?)|carte?)graphique?)')
     Ecran_pattern=re.compile(r'(pouce?)|(taille?(d\'?)?(e|é)cran)|(display)|(\d{1,2}")')
     Poid_pattern=re.compile(r'poids?')
@@ -47,58 +56,104 @@ def extract(description):
     text=re.sub(r'\s+',"",textwithspaces)
     
     if (re.search(Mark_pattern,text)):
-        valuei=re.sub(Mark_pattern,"",text)
-        valuef=re.sub(r'(\d*|\W*|_)',"",valuei)
-        AttrAndValue['MARK']=valuef
-    elif(re.search(CPU_pattern,text)):
-        print(text)
-        cpu_generation_pattern=r'((\d{4,5})|(\dth))'
-        cpu_brand_pattern=r'(intel|amd)'
-        cpu_modifier_pattern=r'i[3579]'
-        if (re.search(cpu_brand_pattern,text)):
-            AttrAndValue['CPU_Brand']=re.search(cpu_brand_pattern,text).group()
-        if(re.search(cpu_generation_pattern,text)):
-            gen=re.search(cpu_generation_pattern,text)
-            AttrAndValue['CPU_Generation']=(re.search(r'^\d',gen.group())).group()
-            print(AttrAndValue['CPU_Generation'])
-        if(re.search(cpu_modifier_pattern,text)):
-            AttrAndValue['CPU_Modifier']=(re.search(cpu_modifier_pattern,text)).group()
-    elif(re.search(RAM_pattern,text)):
-        ramValue=re.search(r'\d{1,2}(g(b|o))?',text)
+        valuei=re.sub(Mark_pattern,"",textwithspaces)
+        listmark=valuei.split(' ')
+        for i in range(len(listmark)):
+            listmark[i]=listmark[i].strip()
+            listmark[i]=re.sub(r'-',"",listmark[i])
+            listmark[i]=re.sub(r'\s',"",listmark[i])
+            if (re.search(r'.?\w*.*?',listmark[i])):
+                AttrAndValue['MARK']=re.sub(r'\W*',"",listmark[i])
+            else:        
+                print()
+    elif(re.search(CPU_pattern,text)) and not(re.search(GPU_pattern,text)):
+        CPU_patternn = r'((\d{4,6})|(\d{1,2}th)|(\d{1,2}(e|è|é)me)|(i\d-?\d{4,6}?))'
+        cpu_brand_pattern = r'(intel|amd|ryzen)'
+        cpu_modifier_pattern = r'i[3579]'
+        if (re.search(CPU_patternn,text)):
+            print(text)
+            if re.search(cpu_brand_pattern, text):
+                AttrAndValue['CPU_Brand'] = re.search(cpu_brand_pattern, text).group()
+                print(AttrAndValue['CPU_Brand'])
+                if AttrAndValue['CPU_Brand'] in ['amd', 'ryzen']:
+                    CPU_serie = re.search(r'\d{4,5}(u|r|x)', text)
+                    CPU_amd_gen=re.search(r'^\d{3}',CPU_serie.group(0))
+                    AttrAndValue['CPU_Modifier'] = CPU_serie.group(0)[0]
+
+                    if CPU_amd_gen.group(0)[1] in ['3', '4', '5', '6', '7', '8', '9']:
+                        AttrAndValue['CPU_Generation'] = int(CPU_serie.group(0)[0])
+                    else:
+                        AttrAndValue['CPU_Generation'] = int(CPU_serie.group(0)[0:1])
+                    if re.search(r'\dpro',text):
+                        AttrAndValue['CPU_Modifier'] = re.search(r'\dpro',text).group(0)[0]
+                elif AttrAndValue['CPU_Brand']=='intel':
+                    CPU_intel=re.search(r'(i\d-?\d{4,6}?)', text)
+                    generation = re.search(r'(\d{4,6})|(\d{1,2}th)|(\d{1,2}(e|è|é)me)', text)
+                    
+                    if generation.group(0)[0] in ['3', '4', '5', '6', '7', '8', '9']:
+                        AttrAndValue['CPU_Generation'] = int(generation.group(0)[0])
+                    else:
+                        AttrAndValue['CPU_Generation'] = int(generation.group(0)[0:2])
+
+                    if re.search(cpu_modifier_pattern, text):
+                        AttrAndValue['CPU_Modifier'] = re.search(cpu_modifier_pattern, text).group().lower()
+
+
+    elif(re.search(RAM_pattern,text) and not (re.search(r'(fr(é|e)quence)|(cache)',text))):
         ramType=re.search(r'(ddr(2|3|4))',text)
-        AttrAndValue['RAM']=ramValue.group(0)
+        textwithnoddr=re.sub(r'(ddr(2|3|4))',"",text)
+        ramValue=re.search(r'\d{1,2}(g(b|o))',textwithnoddr)
+        if ramValue:
+            AttrAndValue['RAM']=ramValue.group(0)
+        else:
+            AttrAndValue['RAM']=re.search(r'\d{1,2}',text).group(0)
         if ramType:
             AttrAndValue['typeRam']=ramType.group(0)
+        
     elif(re.search(StockageHDD_pattern,text)):
-        FStockage=re.search(r'\d{1,5}(g(b|o)|t)?',text)
-        if re.search(r't',FStockage.group()):
-            stockage=re.search(r'\d+',FStockage.group())
-            try:
-                AttrAndValue['STOCKAGEHDD']=(int(stockage.group())*1000)
-            except:
-                print()
-        if re.search(r'g(b|o)',FStockage.group()):
-            stockage=re.search(r'\d+',FStockage.group())
-            try:    
-                AttrAndValue['STOCKAGEHDD']=int(stockage.group())
-            except:
-                print()
+        FStockage=re.search(r'\d{1,5}(g(b|o)?|to?|\w?\W?(hdd|sata))?',text)
+        if FStockage:
+            stockageenTera=re.search(r'\d+to?',FStockage.group())
+            if stockageenTera:
+                stockageValeur=re.search(r'\d*',stockageenTera.group())
+                try:
+                    AttrAndValue['STOCKAGEHDD']=(int(stockageValeur.group(0))*1000)
+                except:
+                    print()
+        
+            stockagego=re.search(r'\d+g(b|o)?',FStockage.group())
+            if stockagego:
+                stockageValeur=re.search(r'\d*',stockagengiga.group())
+                try:
+                    AttrAndValue['STOCKAGEHDD']=int(stockageValeur.group(0))
+                except:
+                    print()
+        
+            
+        AttrAndValue['TypeStockage']='hdd'     
     elif(re.search(StockageSSD_pattern,text)):
-        FStockage=re.search(r'\d{1,5}(g(b|o)|t)?',text)
-        if re.search(r't',FStockage.group()):
-            stockage=re.search(r'\d+',FStockage.group())
-            try:
-                AttrAndValue['STOCKAGEHDD']=(int(stockage.group())*1000)
-            except:
-                print()
-        if re.search(r'g(b|o)',FStockage.group()):
-            stockage=re.search(r'\d+',FStockage.group())
-            try:
-                AttrAndValue['STOCKAGESSD']=int(stockage.group())
-            except:
-                print()
+        print(text)
+        FStockage=re.search(r'\d{1,5}(g(b|o)?|t|\w?\W?ssd)?',text)
+        if FStockage:
+            stockageenTera=re.search(r'\d+to?',FStockage.group())
+            if stockageenTera:
+                stockageValeur=re.search(r'\d*',stockageenTera.group())
+                try:
+                    AttrAndValue['STOCKAGESSD']=(int(stockageValeur.group(0))*1000)
+                except:
+                    print()
+        
+            stockagengiga=re.search(r'\d+g(b|o)?',FStockage.group())
+            if stockagengiga:
+                stockageValeur=re.search(r'\d*',stockagengiga.group())
+                try:
+                    AttrAndValue['STOCKAGESSD']=int(stockageValeur.group(0))
+                except:
+                    print()
+            
+        AttrAndValue['TypeStockage']='ssd'    
     elif(re.search(GPU_pattern,text)):
-        AttrAndValue['GPU']=re.sub(GPU_pattern,"",text)
+        AttrAndValue['GPU']=re.sub(GPU_pattern,"",textwithspaces)
     elif(re.search(Ecran_pattern,text)):
         try:
             EcranValue=re.search(r'(\d{1,2}("|pouce))|(\d*x?\d*cm)',text).group()
@@ -107,13 +162,30 @@ def extract(description):
             print()
     elif(re.search(Poid_pattern,text)):
         poidValue=re.sub(Poid_pattern,"",text)
-        AttrAndValue['POIDS']=re.sub(r'\D*',"",poidValue)
+        AttrAndValue['POIDS']=re.sub(r':*\(*[A-Za-z]*\):*',"",poidValue)
     elif(re.search(Couleur_pattern,text)):
         CouleurValue=re.sub(Couleur_pattern,"",text)
         AttrAndValue['COULEUR']=re.sub(r'\d*|\W*',"",CouleurValue)
-    return AttrAndValue
+    elif(re.search(Stockage_pattern,text)):
         
+        FStockage=re.search(r'\d{1,5}(g(b|o)|t)?',text)
+        if FStockage:
+            stockageenTera=re.search(r'\d+to?',FStockage.group())
+            if stockageenTera:
+                stockageValeur=re.search(r'\d*',stockageenTera.group())
+                try:
+                    AttrAndValue['Stockage']=(int(stockageValeur.group(0))*1000)
+                except:
+                    print()
         
+            stockagengiga=re.search(r'\d+g(b|o)?',FStockage.group())
+            if stockagengiga:
+                stockageValeur=re.search(r'\d*',stockagengiga.group())
+                try:
+                    AttrAndValue['Stockage']=int(stockageValeur.group(0))
+                except:
+                    print()
+    return AttrAndValue       
 def get_price(link):
     page = requests.get(link.strip())  
     soup = BeautifulSoup(page.content, 'lxml')
@@ -153,7 +225,7 @@ def get_info(description):
 
     if not pairs:
         pairs = ['uknown :'+ description]
-    print(pairs)
+    
     if pairs[0]:
 #---------------les clés de dictionnaire qui continent les valeurs des attribut de chaque article doivent être passé  par process_att-------------
         key = preprocess_att(pairs[0])
@@ -167,7 +239,7 @@ def get_info(description):
 
 
 Linksfile = 'LINKS2.txt'
-df = pd.DataFrame(columns=['MARK','RAM','typeRam','CPU_Brand','CPU_Modifier','CPU_Generation','GPU','STOCKAGEHDD','STOCKAGESSD','TypeStockage','COULEUR','POIDS','ECRAN','PRIX','RATE'])
+df = pd.DataFrame(columns=['MARK','RAM','typeRam','CPU_Brand','CPU_Modifier','CPU_Generation','GPU','STOCKAGEHDD','STOCKAGESSD','TypeStockage','Stockage','COULEUR','POIDS','ECRAN','PRIX','RATE'])
 MARK=[]
 RAM=[]
 typeRam=[]
@@ -177,6 +249,7 @@ CPU_Generation=[]
 GPU=[]
 STOCKAGEHDD=[]
 STOCKAGESSD=[]
+Stockage=[]
 TypeStockage=[]
 COULEUR=[]
 POIDS=[]
@@ -190,8 +263,8 @@ RATE=[]
 with open(Linksfile, 'r') as file:
     lines = file.readlines()
     i=0
-    for line in lines[50:53] :
-        MARK.append(None)
+    for line in lines:
+        MARK.append(get_mark(line))
         RAM.append(None)
         typeRam.append(None)
         CPU_Brand.append(None)
@@ -200,6 +273,7 @@ with open(Linksfile, 'r') as file:
         GPU.append(None)
         STOCKAGEHDD.append(None)
         STOCKAGESSD.append(None)
+        Stockage.append(None)
         TypeStockage.append(None)
         COULEUR.append(None)
         POIDS.append(None)
@@ -228,7 +302,7 @@ with open(Linksfile, 'r') as file:
                 for key, value in article_info.items():
                     if ((key=='MARK') and (MARK[i] is None)):
                         MARK[i]=value
-                    elif key=='RAM':
+                    elif key=='RAM' and (RAM[i] is None):
                         RAM[i]=value
                     elif key=='typeRam':
                         typeRam[i]=value
@@ -236,7 +310,7 @@ with open(Linksfile, 'r') as file:
                         CPU_Brand[i]=value
                     elif key=='CPU_Modifier':
                         CPU_Modifier[i]=value
-                    elif key=='CPU_Generation':
+                    elif key=='CPU_Generation' and (CPU_Generation[i] is None):
                         CPU_Generation[i]=value
                     elif key=='GPU':
                         GPU[i]=value
@@ -244,6 +318,8 @@ with open(Linksfile, 'r') as file:
                         STOCKAGEHDD[i]=value
                     elif key=='STOCKAGESSD':
                         STOCKAGESSD[i]=value
+                    elif key=='Stockage' and (Stockage[i] is None):
+                        Stockage[i]=value
                     elif key=='TypeStockage':
                         TypeStockage[i]=value   
                     elif key=='COULEUR':
@@ -267,9 +343,9 @@ with open(Linksfile, 'r') as file:
                     print()
             
                 for key, value in article_info.items():
-                    if((key=='MARK') and (MARK[i] is None)):
+                    if((key=='MARK') ):
                         MARK[i]=value
-                    elif key=='RAM':
+                    elif key=='RAM' and (RAM[i] is None):
                         RAM[i]=value
                     elif key=='typeRam':
                         typeRam[i]=value
@@ -284,9 +360,12 @@ with open(Linksfile, 'r') as file:
                     elif key=='STOCKAGEHDD':
                         STOCKAGEHDD[i]=value
                     elif key=='STOCKAGESSD':
-                        STOCKAGESSD[i]=value
+                        STOCKAGESSD[i]=value 
                     elif key=='TypeStockage':
-                        TypeStockage[i]=value   
+                        TypeStockage[i]=value  
+                    elif key=='Stockage' and (Stockage[i] is None):
+                        print('got into if of stockage')
+                        Stockage[i]=value 
                     elif key=='COULEUR':
                         COULEUR[i]=value   
                     elif key=='POIDS':
@@ -307,12 +386,11 @@ data_frame = pd.DataFrame({
     "STOCKAGEHDD": STOCKAGEHDD,
     "STOCKAGESSD": STOCKAGESSD,
     "TypeStockage": TypeStockage,
+    "Stockage":Stockage,
     "COULEUR": COULEUR,
     "POIDS": POIDS,
     "ECRAN": ECRAN,
     "PRIX": PRIX,
     "RATE": RATE,
 })
-data_frame.to_csv("output.csv", index=False)    
-
-# print(df.to_string())
+data_frame.to_csv("output1.csv", index=False)    

@@ -1,0 +1,627 @@
+MARK,RAM,typeRam,CPU_Brand,CPU_Modifier,CPU_Generation,GPU,STOCKAGEHDD,STOCKAGESSD,TypeStockage,Stockage,COULEUR,POIDS,ECRAN,PRIX,RATE
+Lenovo,,,,,,,,,,,gris,1,"6""",175.00 Dhs,4.3 out of 5
+DELL,4go,ddr3,intel,i3,4.0, : intel hd graphics family,,,,,noir,2.42,15pouce,"1,410.00 Dhs",4.5 out of 5
+Hp,16gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"2,899.00 Dhs",4 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,256.0,ssd,,gris,1.28,,"2,490.00 Dhs",3.7 out of 5
+Hp,4go,,,,,,,,,500.0,,1,6pouce,"3,329.00 Dhs",0 out of 5
+Accent,2go,,,,,,,,,32.0,noir,1,"1""","1,999.00 Dhs",0 out of 5
+Bluetooth,,,,,,,,,,,rose,0.6,,189.00 Dhs,5 out of 5
+Hp,8go,ddr4,,,,,,256.0,ssd,256.0,noir,2,14pouce,"1,950.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i5,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,,,500.0,noir,2,"14""","1,999.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i3,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,256.0,ssd,7200000.0,noir,2,"14""","2,034.00 Dhs",4 out of 5
+Hp,16go,ddr4,intel,i5,6.0,contrôleur graphique : intel hd graphics 520,,256.0,ssd,,argentnoir,1.6,,"2,599.00 Dhs",0 out of 5
+Hp,8go,,,,,,,256.0,hdd,,,1,,"5,749.00 Dhs",0 out of 5
+Accent,4go,,intel,,4.0,,,,,64.0,noir,1,"1""","2,299.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i5,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,,,500.0,noiretargent,2,"14""","1,775.00 Dhs",5 out of 5
+Hp,8go,,,,,,,256.0,ssd,,,1,6pouce,"4,559.00 Dhs",5 out of 5
+Hp,16go,,,,,,,512.0,ssd,,,1,14pouce,"9,649.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,2.9,,"2,799.00 Dhs",4.5 out of 5
+DELL,4go,ddr3,intel,i5,4.0,contrôleur graphique: intel hd graphics 4400,,128.0,ssd,,noiretargent,1.6,"5""","2,379.00 Dhs",0 out of 5
+Think,8go,ddr4,intel,i5,6.0,carte graphique : intel® hd graphics 520,,256.0,ssd,,noir,2,"14""","2,450.00 Dhs",0 out of 5
+DELL,8go,ddr3,intel,i5,4.0,contrôleur graphique: intel hd graphics 4400,,,,,noiretargent,1.6,"5""","2,549.00 Dhs",0 out of 5
+Acer,4gb,ddr4,intel,i5,5.0,,,,,,noir,3,,"5,690.00 Dhs",5 out of 5
+DELL,16go,ddr3,intel,i5,5.0,nombre d'affichages pris en charge par la carte graphique intégrée	:   3,,,hdd,7200000.0,noir,1.81,6cm,"2,499.00 Dhs",4 out of 5
+,,,,,,,,,,,,,,,
+Hp,00go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics,,32.0,ssd,,noir,1.5,"14""","2,099.00 Dhs",3.5 out of 5
+Hp,16go,ddr3,intel,i3,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,,,1000.0,noiretargent,2,"14""","2,145.00 Dhs",0 out of 5
+Hp,16gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"2,900.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,noir,2,,"1,912.00 Dhs",5 out of 5
+Hp,00go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics,,32.0,ssd,,noir,1.5,"14""","2,349.00 Dhs",3.8 out of 5
+Hp,8go,ddr4,amd,5,5.0,"microprocesseur : processeur amd ryzen™ 5 4500u avec carte graphique radeon™ vega 8 (2,1 ghz de fréquence de base, jusqu’à 3,7 ghz de fréquence de rafale, 6 mo de mémoire cache, 4 cœurs)",,2512.0,ssd,,noir,4,,"7,955.00 Dhs",4.4 out of 5
+Hp,8go,ddr3,intel,i5,5.0,id de la carte graphique intégrée	  :   0x1616,,,hdd,500.0,noir,1.6,8cm,"1,890.00 Dhs",5 out of 5
+Hp,8go,ddr3,intel,i5,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,,,500.0,noiretargent,2,"14""","1,745.00 Dhs",4 out of 5
+Hp,4go,ddr4,ryzen,5,5.0,,,,,,grisfoncé,1.75,"6""","5,395.00 Dhs",0 out of 5
+Mini,30,,,,,,,,,,noir,0.136,,239.00 Dhs,0 out of 5
+Hp,8go,ddr4,intel,i5,7.0,fréquence dynamique (max) de carte graphique intégrée : 1150 mhz,,512.0,ssd,512.0,gris,1.4,8cm,"4,478.00 Dhs",4 out of 5
+Hp,4go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,noir,2,,"1,912.00 Dhs",3.9 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,256.0,ssd,,gris,,,"2,520.00 Dhs",3.7 out of 5
+Hp,8go,ddr3,intel,i3,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,,,7200000.0,noiretargent,2,"14""","1,745.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i3,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,256.0,ssd,7200000.0,noiretargent,2,"14""","1,745.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics,,32.0,ssd,500.0,,2,"14""","2,099.00 Dhs",0 out of 5
+Hp,00go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics 5500,,32.0,ssd,,,1,"14""","2,199.00 Dhs",4.8 out of 5
+Hp,16go,ddr4,,,,: intel uhd 520,,256.0,ssd,,argentetnoir,1.48,,"5,999.00 Dhs",4 out of 5
+Lenovo,8go,,intel,i3,4.0,,,256.0,ssd,,noir,1.5,,"1,599.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i7,6.0,,,256.0,ssd,,gris,1.6,"0""","3,300.00 Dhs",0 out of 5
+Hp,4go,ddr4,ryzen,5,5.0,,,,,,grisfoncé,1.75,"6""","6,990.00 Dhs",4 out of 5
+Lenovo,8go,,,,,,,,ssd,,noir,1.5,,"4,200.00 Dhs",0 out of 5
+Asus,4go,ddr4,intel,,4.0,carte graphique : intel® uhd graphics 600,,,,128.0,peacockblue,1.5,"6""","2,550.00 Dhs",4 out of 5
+Hp,16go,ddr4,intel,i5,6.0,,,,hdd,,gris,1.28,,"2,499.00 Dhs",4.8 out of 5
+Hp,16go,ddr4,intel,i7,6.0,,,512.0,ssd,,,2,,"3,500.00 Dhs",4 out of 5
+Asus,4gb,,intel,,5.0,,,,,128.0,noir,1.3,"14""","2,460.00 Dhs",0 out of 5
+Asus,4gb,,intel,,5.0,,,,ssd,,noir,1.3,"14""","3,000.00 Dhs",0 out of 5
+DELL,8go,,intel,i5,5.0,"sorties de la carte graphique prises en charge	:  displayport, embedded displayport (edp), hdmi",,,,500.0,noir,1.81,6cm,"2,099.00 Dhs",5 out of 5
+DELL,4go,ddr3,intel,i3,4.0, : intel hd graphics family,,,,,noir,2.42,15pouce,"1,550.00 Dhs",0 out of 5
+Asus,,,,,,carte graphique : (modèle et capacité varient en fonction de la configuration),,,ssd,,noir,1.3,,"2,889.00 Dhs",0 out of 5
+DELL,4go,ddr3,intel,i3,4.0, : intel hd graphics family,,,,,noir,2.42,6pouce,"1,599.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,intel,i5,11.0,,,256.0,ssd,,gris,1,,"5,450.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0, : intel uhd graphics 520,,256.0,ssd,8.0,grisnoir,1,14pouce,"2,999.00 Dhs",0 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique: intel® uhd graphics 600,,,,,rose,1.3,"0""","4,172.00 Dhs",0 out of 5
+Asus,4gb,,intel,,5.0,,,,,128.0,noir,1.3,"14""","4,172.00 Dhs",0 out of 5
+Lenovo,4go,ddr4,intel,i5,4.0,carte graphique : intel hd graphics 5500,,,ssd,128.0,noir,1.42,8cm,"1,899.00 Dhs",4.5 out of 5
+Hp,8go,ddr4,intel,i5,8.0, : intel uhd graphics 620,,256.0,ssd,,gris,2,"14""","3,299.00 Dhs",2 out of 5
+Hp,16gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"2,999.00 Dhs",4 out of 5
+Lenovo,16go,ddr3,intel,i5,5.0,carte graphique : intel® hd graphics 5500,,,,,noir,1.63,,"2,300.00 Dhs",0 out of 5
+Lenovo,8go,,,,,description de la carte graphique    :     intégrée,,512.0,ssd,,noir,1.5,14pouce,"3,500.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,intel,i5,4.0,carte graphique : intel hd graphics 5500,,,ssd,128.0,noir,1.42,8cm,"1,999.00 Dhs",3.5 out of 5
+Lenovo,8go,,,,,description de la carte graphique    :     intégrée,,512.0,ssd,,noir,1.5,14pouce,"3,600.00 Dhs",0 out of 5
+Hp,16gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"2,899.00 Dhs",0 out of 5
+Hp,8go,,intel,,5.0,"sorties de la carte graphique prises en charge : 	display port, embedded display port (edp), hdmi",,256.0,ssd,,noir,0.5,,"2,699.00 Dhs",5 out of 5
+Hp,8go,ddr4,intel,i5,7.0,: intel hd graphics 620,,256.0,ssd,,argentetnoir,1.28,"3""","3,812.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"2,490.00 Dhs",3.4 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"2,580.00 Dhs",2 out of 5
+Lenovo,8go,ddr4,intel,i5,5.0,carte graphique : intel hd graphics 5500,,,ssd,500.0,noir,1.42,8cm,"2,199.00 Dhs",1 out of 5
+,,,,,,,,,,,,,,,
+Hp,8go,ddr3,intel,i5,5.0,id de la carte graphique intégrée	  :   0x1616,,,hdd,500.0,noir,1.6,8cm,"1,849.00 Dhs",4 out of 5
+Lenovo,8go,ddr4,intel,i5,6.0,carte graphique : intel® hd graphics 520,,256.0,ssd,,noir,1.5,"14""","2,399.00 Dhs",3.5 out of 5
+Hp,8go,ddr4,intel,i5,8.0,carte graphique intégrée  : oui,,256.0,ssd,256.0,gris,1.48,"14""","3,399.00 Dhs",0 out of 5
+Asus,8go,ddr4,intel,i5,11.0,carte graphique: nvidia® geforce® mx330 2go,,512.0,ssd,,gris,1.8,"6""","5,690.00 Dhs",0 out of 5
+Infinix,8go,,,,,,,512.0,ssd,,green,1,14pouce,"6,400.00 Dhs",5 out of 5
+Hp,4go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,argentnoir,1.95,,"1,699.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i7,6.0,,,512.0,ssd,,gris,1.5,,"4,220.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i7,6.0,carte graphique : intel hd graphics 520,,512.0,ssd,,,1,,"3,400.00 Dhs",4.3 out of 5
+Hp,16gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"2,799.00 Dhs",1 out of 5
+Hp,16go,ddr4,intel,i5,6.0,,,256.0,ssd,,gris,1.28,,"2,490.00 Dhs",3.7 out of 5
+Hp,4go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,noir,1.95,,"1,650.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,256.0,ssd,,,1.54,,"2,490.00 Dhs",3.3 out of 5
+Lenovo,8go,ddr3,intel,i5,4.0,carte graphique : intel® hd graphics,,,,,noir,1.8,,"1,999.00 Dhs",4.2 out of 5
+Hp,8go,ddr4,intel,i7,6.0,,,256.0,ssd,,noiretargent,1.6,,"3,499.00 Dhs",4 out of 5
+DELL,8go,ddr4,intel,i5,7.0,carte graphique : intel hd graphics 620,,256.0,ssd,,noir,2,12pouce,"3,600.00 Dhs",0 out of 5
+Hp,16go,,intel,i5,6.0,résolution maximum (displayport) de la carte graphique intégrée : 4096 x 2304 pixels,,512.0,ssd,,argentetnoir,1.6,6cm,"3,095.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i5,6.0,,,512.0,ssd,,noiretargent,1.6,,"3,199.00 Dhs",3 out of 5
+Lenovo,16go,,intel,i7,7.0,description de la carte graphique    :     intégrée,,256.0,ssd,,noir,1.6,14pouce,"3,899.00 Dhs",1 out of 5
+DELL,8gb,ddr4,intel,i5,11.0,carte graphique: intel iris xe graphics,,256.0,ssd,,argent,1.37,,"6,800.00 Dhs",0 out of 5
+Lenovo,16go,,,,,description de la carte graphique    :     intégrée,,256.0,ssd,,noir,1.6,14pouce,"3,999.00 Dhs",5 out of 5
+Hp,8go,ddr3,intel,i5,4.0,,,,,500.0,noir,2,"14""","1,699.00 Dhs",3.3 out of 5
+Hp,8gb,ddr3,intel,i5,5.0,,,128.0,ssd,,grisetnoir,2,,"3,999.00 Dhs",0 out of 5
+Hp,16go,ddr3,intel,i3,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,,,1000.0,noiretargent,2,"14""","2,199.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,,,,carte graphique : intel hd graphics 5500,,,hdd,320.0,noir,1.42,8cm,"1,763.00 Dhs",5 out of 5
+Hp,8go,ddr4,intel,i5,8.0,carte graphique intégrée  : oui,,256.0,ssd,256.0,gris,1.6,"14""","3,299.00 Dhs",0 out of 5
+Hp,8go,,,,,résolution maximum (hdmi) de carte graphique intégrée : 4096 x 2304 pixels,,,,,argentetnoir,1.6,6cm,"2,099.00 Dhs",4 out of 5
+Hp,8go,ddr3,intel,i3,4.0,contrôleur graphique intel hd graphics 4600 (intégré au processeur),,,,250.0,noiretargent,2.5,"14""","1,695.00 Dhs",4.2 out of 5
+Hp,8go,ddr3,intel,i3,4.0,,,,,320.0,noir,2,"14""","1,699.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,noir,2,,"1,797.00 Dhs",4 out of 5
+Hp,20gb,ddr3,intel,i3,4.0,,,,,320.0,noir,,"14""","1,890.00 Dhs",4 out of 5
+Lenovo,8go,,,,,description de la carte graphique    :     intégrée,,512.0,ssd,,noir,1.5,14pouce,"3,600.00 Dhs",0 out of 5
+DELL,16go,,,,,,,,,256.0,noir,1.5,,"2,500.00 Dhs",0 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique  intel® uhd 600,,,,,noir,1,"6""","1,990.00 Dhs",5 out of 5
+Hp,8go,ddr4,intel,i5,8.0,,,256.0,ssd,,argent,1,"3""","3,200.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,noir,1.95,,"1,699.99 Dhs",1 out of 5
+Hp,8go,ddr4,intel,i5,6.0,carte graphique : intel® hd graphics 520,,256.0,ssd,,,1.48,"14""","2,599.00 Dhs",3 out of 5
+,,,,,,,,,,,,,,,
+Lenovo,16go,ddr3,intel,i5,5.0,,,,ssd,,noir,2,"14""","2,460.00 Dhs",4 out of 5
+Table,,,,,,,,,,,noir,1,17pouce,178.00 Dhs,3.7 out of 5
+Hp,4go,ddr3,,,,,,,,,noir,2,"14""","1,750.00 Dhs",0 out of 5
+Hp,,,intel,i5,4.0,,,,,,noir,1.5,,"2,900.00 Dhs",4.7 out of 5
+Hp,8go,ddr3,intel,i5,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,128.0,ssd,7200000.0,noiretargent,2,"14""","1,899.00 Dhs",3 out of 5
+Hp,8go,ddr3,intel,i5,4.0,contrôleur graphique intel hd graphics 4600 (intégré au processeur),,,,500.0,noiretargent,1.6,"14""","1,899.00 Dhs",1 out of 5
+Hp,16gb,ddr4,intel,i7,7.0,,,256.0,ssd,,gris,1.5,,"3,400.00 Dhs",0 out of 5
+Lenovo,16go,,,,,description de la carte graphique    :     intégrée,,512.0,ssd,,noir,1,14pouce,"4,599.00 Dhs",0 out of 5
+DELL,,,,,,,,,,,,,,"2,950.00 Dhs",0 out of 5
+DELL,16go,ddr4,intel,i5,8.0,: intel uhd graphics 620,,512.0,ssd,,noir,1.2,"14""","3,400.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i3,6.0, :  intel hd 520,,256.0,ssd,,noir,1.95,,"1,699.90 Dhs",3 out of 5
+Lenovo,16gb,ddr4,intel,i7,12.0,carte graphique: integrated intel iris® xe graphics functions as uhd graphics,,512.0,ssd,,noir,1.7,"14""","8,900.00 Dhs",0 out of 5
+Hp,8go,,intel,i7,7.0,,,256.0,ssd,,noiretargent,2,6cm,"3,599.00 Dhs",0 out of 5
+DELL,16go,ddr3,intel,i5,5.0,nombre d'affichages pris en charge par la carte graphique intégrée :   3,,,hdd,7200000.0,noir,1.81,6cm,"2,199.00 Dhs",3.7 out of 5
+Lenovo,8go,,intel,i5,4.0,carte graphique : intel hd graphics 5500,,128.0,ssd,,noir,2.5,8cm,"1,999.00 Dhs",0 out of 5
+Hp,16go,ddr4,,,,,,,ssd,256.0,gris,1.5,,"3,450.00 Dhs",0 out of 5
+Lenovo,16go,ddr4,intel,i5,5.0,,,512.0,ssd,,noir,1,"14""","3,699.00 Dhs",5 out of 5
+Hp,16go,,intel,i5,13.0,,,,ssd,,noir,2.36,"16""","12,999.00 Dhs",0 out of 5
+Asus,,,,,,,,,,,gris,1,"6""","1,999.00 Dhs",0 out of 5
+Lenovo,16go,ddr3,intel,i5,5.0,,,,ssd,,noir,2,"14""","2,399.00 Dhs",0 out of 5
+Hp,32go,ddr4,intel,i7,10.0, : intel uhd graphics,,512.0,ssd,,gris,2,3pouce,"7,999.00 Dhs",0 out of 5
+DELL,8go,ddr3,intel,i5,4.0,contrôleur graphique: intel hd graphics 4400,,128.0,ssd,,noiretargent,1.6,"5""","3,999.00 Dhs",3 out of 5
+Hp,16go,ddr4,,,,,,,ssd,256.0,,1.5,,"3,550.00 Dhs",0 out of 5
+Hp,16gb,ddr4,intel,i5,8.0,carte graphique intégrée  : oui,,256.0,ssd,256.0,gris,1.5,"3""","3,400.00 Dhs",4 out of 5
+DELL,8go,,intel,,5.0,nombre d'affichages pris en charge par la carte graphique intégrée :   3,,,hdd,7200000.0,noir,2.5,6cm,"3,299.00 Dhs",0 out of 5
+DELL,32go,,intel,i7,13.0,carte graphique : intel® iris® xe graphics,,1000.0,ssd,,,1.26,,"26,643.00 Dhs",0 out of 5
+JEMCO,6go,ddr3,intel,,3.0,type de carte graphique: carte intégrée,,256.0,ssd,,gris,1.2,14pouce,"1,990.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,grismétallisé,,"5""","2,299.00 Dhs",1 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,,,,gris,1.28,,"2,360.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,8.0,carte graphique intégrée  : oui,,256.0,ssd,256.0,argentetnoir,1.48,"14""","3,299.00 Dhs",0 out of 5
+DELL,16,ddr4,intel,i7,11.0,carte graphique : intel® iris® xe graphics,,512.0,ssd,,,1.46,"0""","19,160.00 Dhs",0 out of 5
+Hp,00go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics,,,,,noir,1.6,"14""","2,199.00 Dhs",0 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique  intel® uhd 600,,,,,bleu,2,"6""","2,140.00 Dhs",5 out of 5
+Hp,4go,ddr3,intel,i5,5.0,id de la carte graphique intégrée	  :   0x1616,,,hdd,500.0,noir,1.35,8cm,"1,999.00 Dhs",4.5 out of 5
+Acer,2go,,intel,,3.0,carte graphique    :   	intel hd,,,,32.0,blanc,1.6,6pouce,"1,499.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,"contrôleur
+     graphique : intel hd graphics 520",,840.0,ssd,,gris,1,"14""","2,999.99 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,5.0,,,256.0,ssd,,gris,1.5,,"2,300.00 Dhs",0 out of 5
+Hp,00go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics,,256.0,ssd,,noir,1.6,"14""","3,299.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i7,6.0,contrôleur graphique : intel hd graphics 520,,256.0,ssd,,argentetnoir,1.6,,"2,735.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,5.0,,,256.0,ssd,,gris,1.5,,"2,300.00 Dhs",0 out of 5
+Infinix,16go,,intel,i7,10.0,,,512.0,ssd,,vert,":1,48kg",14pouce,"7,900.00 Dhs",0 out of 5
+Lenovo,4gb,ddr4,intel,i3,10.0,carte graphique : intel® uhd 620,1000.0,,hdd,,grisfer,1.85,,"3,299.00 Dhs",3.9 out of 5
+Lenovo,4gb,ddr4,intel,,4.0,carte graphique: intel uhd graphics 600,1000.0,,hdd,,abyssblue,1.5,"6""","2,750.00 Dhs",0 out of 5
+Hp,32go,ddr4,intel,i7,8.0, : intel uhd graphics,,512.0,ssd,,gris,2.6,14pouce,"5,999.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,,1.28,,"2,399.00 Dhs",0 out of 5
+DELL,32go,ddr3,intel,i5,6.0,nombre d'affichages pris en charge par la carte graphique intégrée	:   3,,256.0,ssd,7200000.0,noir,1.81,6cm,"3,399.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,,,,,2,,"2,350.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,4.0,carte graphique : intégrée - intel hd graphics 4600,,,,500.0,noir,2.5,,"2,178.00 Dhs",5 out of 5
+Hp,32,ddr4,intel,i7,11.0,,,512.0,ssd,,argent,2.76,,"22,795.00 Dhs",0 out of 5
+Lenovo,16go,,,,,description de la carte graphique    :     intégrée,,256.0,ssd,,noir,1,14pouce,"3,999.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i3,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,256.0,ssd,7200000.0,noiretargent,2,"14""","1,899.00 Dhs",0 out of 5
+Lenovo,8gb,ddr4,amd,3,3.0,,,512.0,ssd,,gris,1.9,,"4,550.00 Dhs",0 out of 5
+Hp,00go,ddr3,intel,i5,4.0,carte graphique :  intel hd graphics,,,,,noiretargent,1.5,"6""","2,799.00 Dhs",0 out of 5
+Microsoft,8go,ddr4,intel,i5,10.0,,,128.0,ssd,,gris,1.1,cm,"7,490.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i3,6.0, :  intel hd 520,,128.0,ssd,,noir,1.95,,"1,760.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i5,6.0,,,,,500.0,,2,"14""","2,550.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i5,6.0,contrôleur graphique : intel hd graphics 520,,,,,noir,1.6,,"2,499.00 Dhs",4 out of 5
+Lenovo,,,,,,,,,,,noir,1.8,,"2,299.00 Dhs",0 out of 5
+Lenovo,4gb,ddr4,amd,3,3.0,carte graphique : amd radeon,1000.0,,hdd,,noir,1.6,,"2,999.00 Dhs",0 out of 5
+Hp,8gb,,intel,i7,7.0,carte graphique :  intel® hd 260,,256.0,ssd,,argent,1.29,"3""","3,899.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,contrôleur graphique : intel hd graphics 520,,240.0,ssd,,argentnoir,1.6,,"2,390.00 Dhs",4 out of 5
+Lenovo,,,,,,,,,,,noir,1.8,,"2,299.00 Dhs",0 out of 5
+DELL,8go,,intel,i5,6.0,,,,,,noir,1.36,,"3,999.00 Dhs",0 out of 5
+DELL,4go,ddr3,intel,i3,4.0,: intel hd graphics family,,128.0,ssd,,noir,2.42,6pouce,"1,590.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i5,6.0,,,512.0,ssd,,gris,2,,"3,490.00 Dhs",5 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique  intel® uhd 600,1000.0,,hdd,,noir,1,"6""","2,440.00 Dhs",0 out of 5
+DELL,8go,ddr4,intel,i5,10.0,: intel uhd graphics,,256.0,ssd,,noir,1.35,3pouce,"4,800.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.8,,"2,490.00 Dhs",3.6 out of 5
+DELL,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,noir,1.6,,"2,900.00 Dhs",0 out of 5
+Microsoft,16go,ddr4,intel,i7,10.0,,,,ssd,,gris,1.9,"15""","10,999.00 Dhs",0 out of 5
+Hp,16go,,,,,résolution maximum (hdmi) de carte graphique intégrée : 	4096 x 2304 pixels,,512.0,ssd,,noir,1.5,6cm,"3,099.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,hdd,,gris,,,"2,599.00 Dhs",5 out of 5
+Hp,16go,ddr4,intel,i5,8.0, : intel uhd graphics 620,,256.0,ssd,,argent,2,14pouce,"3,900.00 Dhs",0 out of 5
+Lenovo,16go,ddr4,intel,i5,5.0,,,512.0,ssd,,noir,1.6,"14""","3,699.00 Dhs",2 out of 5
+Lenovo,16gb,,intel,i7,10.0,,,,ssd,,gris,0.1,"6""","9,200.00 Dhs",0 out of 5
+Hp,32go,ddr4,intel,i7,10.0, : intel uhd graphics,,512.0,ssd,,noirgris,2.6,3pouce,"7,899.00 Dhs",0 out of 5
+DELL,8go,,intel,i5,7.0,,,,,,noir,1.36,,"3,300.00 Dhs",4 out of 5
+DELL,16go,ddr4,intel,i5,11.0,carte graphique: intel iris xe graphics,,512.0,ssd,,grissidéral,1.24,,"6,699.00 Dhs",0 out of 5
+DELL,8go,,intel,,5.0,nombre d'affichages pris en charge par la carte graphique intégrée :   3,,,hdd,7200000.0,noir,1.81,6cm,"2,199.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,,,,carte graphique : intel hd graphics 5500,,,hdd,320.0,noir,1.42,8cm,"1,999.00 Dhs",0 out of 5
+Acer,8go,ddr4,intel,i5,8.0,,,,ssd,,grisclaire,1.23,"3""","4,599.00 Dhs",0 out of 5
+Hp,16gb,,intel,i7,13.0,carte graphique :  intel® iris® xᵉ,,512.0,ssd,,,1.3,,"21,295.00 Dhs",0 out of 5
+Hp,4go,ddr3,intel,i5,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,,,500.0,noir,2,"14""","1,999.00 Dhs",2.3 out of 5
+Hp,16go,ddr4,intel,i5,6.0,carte graphique : intel® hd graphics 520,,,,,,1,,"7,500.00 Dhs",3.7 out of 5
+Hp,8go,ddr4,intel,i5,8.0,carte graphique intégrée  : oui,,256.0,ssd,256.0,argent,1.48,"14""","3,950.00 Dhs",5 out of 5
+Lenovo,8go,ddr3,intel,i5,5.0,,,,,,noir,1.5,"14""","2,350.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,intel,i5,10.0,,,,ssd,,noirblack,1,"6""","4,999.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,6.0,carte graphique : intel® hd graphics,,256.0,ssd,,noir,1.8,,"2,399.00 Dhs",3.6 out of 5
+DELL,16go,,,,,,,,,256.0,noir,1.5,,"3,099.00 Dhs",0 out of 5
+Hp,12go,ddr4,intel,i5,11.0,carte graphique : carte graphique intel® iris® xᵉ intégré,,,ssd,,noir,1.75,,"6,899.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,8.0, : graphiques uhd intel,,256.0,ssd,,argent,3,,"3,500.00 Dhs",0 out of 5
+Toshiba,4go,ddr3,intel,i5,3.0,,,128.0,ssd,,noir,1.6,"3""","1,999.00 Dhs",0 out of 5
+DELL,16go,ddr4,intel,i5,8.0,: intel uhd graphics 620,,512.0,ssd,,noir,1.2,"14""","3,400.00 Dhs",0 out of 5
+Lenovo,12go,ddr4,intel,i5,5.0,,1000.0,,hdd,,noir,1,"14""","3,999.00 Dhs",0 out of 5
+Lenovo,16go,ddr4,intel,i5,6.0,carte graphique : intel® hd graphics 520,,256.0,ssd,,noir,1.5,"14""","2,490.00 Dhs",4 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique: intel® uhd graphics 600,,,,,noir,2,,"2,090.00 Dhs",0 out of 5
+Toshiba,8go,ddr4,intel,i5,10.0,carte graphique : intel® uhd graphics;,,256.0,ssd,,noire,2,,"5,300.00 Dhs",0 out of 5
+Fujitsu,8go,ddr4,intel,i5,6.0,carte graphique: intégrée - intel hd graphics 5500,,256.0,ssd,,noireargent,1.32,,"1,872.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i5,12.0,,,,ssd,,argent,1.74,"6""","7,599.00 Dhs",0 out of 5
+DELL,16go,,,,,,,,,256.0,noir,1.5,,"3,080.00 Dhs",0 out of 5
+DELL,8go,ddr3,intel,,4.0,,,128.0,ssd,,gray,2.12,,"2,699.00 Dhs",0 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique  intel® uhd 600,,,,,noir,1,"6""","2,249.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i5,10.0, : intel uhd graphics 620,,256.0,ssd,,gris,1.48,14pouce,"4,800.00 Dhs",0 out of 5
+DELL,8go,ddr3,intel,i5,6.0, :  intel hd graphics family,,,,,noir,1.25,"5""","2,700.00 Dhs",5 out of 5
+Hp,16go,ddr4,intel,i5,6.0,,,,hdd,,gris,1.28,,"2,290.00 Dhs",0 out of 5
+Lenovo,4,ddr4,,,,,,,,1000.0,gris,,14pouce,"2,200.00 Dhs",3 out of 5
+DELL,8go,ddr4,intel,i5,5.0,carte graphique:intel hd 620 .,,256.0,ssd,,noir,2,"5""","2,999.00 Dhs",0 out of 5
+Hp,8go,,intel,i5,7.0,,,256.0,ssd,,argent,2,"14""","3,500.00 Dhs",0 out of 5
+Hp,,,intel,,4.0,,,,,,,2,"0""","2,600.00 Dhs",0 out of 5
+Lenovo,4go,ddr4,intel,i5,5.0,carte graphique : intel hd graphics 5500,,,ssd,128.0,noir,1,8cm,"1,999.00 Dhs",0 out of 5
+Lenovo,4go,ddr4,,,,carte graphique : intel hd graphics 5500,,,hdd,250.0,noir,1.42,8cm,"1,799.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,contrôleur graphique : intel hd graphics 520,,256.0,ssd,,argent,1.281,,"2,350.00 Dhs",0 out of 5
+Lenovo,16gb,ddr4,intel,i5,5.0,carte graphique : intel® iris® xe graphics,,256.0,ssd,,noir,1.754,,"11,450.00 Dhs",0 out of 5
+Hp,16,ddr4,intel,i7,10.0,carte graphique 2 : nvidia quadro t1000 max-q design (4go),,512.0,ssd,,gris,1.75,,"14,299.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,256.0,ssd,,argentnoir,1.6,,"2,600.00 Dhs",3 out of 5
+Lenovo,8go,ddr3,intel,i5,6.0,carte graphique : intel® hd graphics,,,,,noir,2.5,,"2,575.00 Dhs",3.6 out of 5
+Hp,4go,ddr3,,,,carte graphique  :     radeon r2,,,hdd,5400000.0,gris,2.5,6pouce,"1,999.00 Dhs",0 out of 5
+Hp,00go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics,,256.0,ssd,,noir,1.6,"14""","2,299.00 Dhs",0 out of 5
+Hp,16gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,256.0,ssd,,,2,,"2,690.00 Dhs",0 out of 5
+Hp,32go,ddr4,intel,i7,6.0,,,256.0,ssd,,argentetnoir,1.3,5pouce,"3,490.00 Dhs",0 out of 5
+Hp,8go,ddr4,amd,5,5.0,contrôleur graphique intégré : amd radeon™ graphics,,,ssd,,gris,2,"6""","5,900.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i7,7.0, : amd radeon pro wx3100,,,ssd,,,,,"20,000.00 Dhs",0 out of 5
+Lenovo,4go,,,,,carte graphique intel uhd graphics,,,,1000.0,noir,2,,"3,290.00 Dhs",3 out of 5
+DELL,8go,,,,,,,,,256.0,noir,3.47,,"2,990.00 Dhs",5 out of 5
+Lenovo,16go,ddr3,intel,i5,5.0,,,,hdd,,noir,2,"14""","2,299.00 Dhs",0 out of 5
+DELL,16,ddr4,,,,nom de la carte graphique : intel hd graphics 520,,,ssd,,noir,2,,"2,850.00 Dhs",3 out of 5
+Hp,16go,ddr4,,,,: intel uhd 520,,256.0,ssd,,argentetnoir,1.48,,"2,990.00 Dhs",4 out of 5
+Lenovo,8go,ddr4,intel,i5,6.0,carte graphique : intel hd graphics 5500,,,,500.0,noir,1.42,8cm,"2,240.00 Dhs",3 out of 5
+Hp,8go,ddr4,intel,i7,6.0,,,256.0,ssd,,grismétallisé,1.88,,"2,899.00 Dhs",3 out of 5
+Asus,8go,ddr4,intel,i5,8.0,,,,hdd,,gold,12,"6""","4,599.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,noir,1.95,,"3,100.00 Dhs",5 out of 5
+Lenovo,16go,ddr3,intel,i5,5.0,carte graphique : intel® hd graphics 5500,,,,,noir,1.63,,"2,250.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,8.0, : graphiques uhd intel,,256.0,ssd,,argent,2,,"3,240.00 Dhs",5 out of 5
+Lenovo,,,amd,3,3.0,,,,ssd,,abyssblue,2.11,"14""","3,500.00 Dhs",0 out of 5
+Hp,8go,ddr4,,,,,,512.0,ssd,,noiretgris,2.3,,"2,299.00 Dhs",0 out of 5
+Microsoft,8go,ddr4,,,, adreno 685 ,,256.0,ssd,,noir,0.8,13pouce,"7,999.00 Dhs",0 out of 5
+Hp,,,,,,,,,,,,,,"2,590.00 Dhs",
+Samsung,16go,ddr4,intel,i7,11.0,carte graphique intel® iris® xe,,512.0,ssd,,argent,1.55,,"12,599.00 Dhs",0 out of 5
+Lenovo,12go,ddr4,intel,i5,5.0,,,256.0,ssd,,noir,2,"14""","3,599.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,contrôleur graphique : intel hd graphics 520,,240.0,ssd,,argentnoir,1.6,,"2,899.00 Dhs",5 out of 5
+Hp,4go,ddr3,intel,i5,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,,,500.0,noir,2,"14""","1,999.00 Dhs",0 out of 5
+DELL,16gb,ddr4,intel,i5,11.0,carte graphique nvidia® geforce® mx350 2g,,,,2256.0,noir,2,"6""","7,500.00 Dhs",0 out of 5
+Asus,4gb,ddr4,amd,3,3.0, : amd radeon graphics,1000.0,,hdd,,gris,2,,"2,990.00 Dhs",0 out of 5
+DELL,12gb,ddr4,intel,i3,11.0,,1000.0,,hdd,,noir,1.5,,"5,599.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,5.0,carte graphique : intel® hd graphics 5500,,,,,noir,1.63,,"2,100.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,contrôleur graphique : intel hd graphics 520,,256.0,ssd,,argentetnoir,1.6,,"4,000.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,7.0,,,,ssd,256.0,gris,1.4,8cm,"4,299.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,intel,i5,6.0,carte graphique : intel hd graphics 5500,,,ssd,,noir,1.42,8cm,"2,350.00 Dhs",0 out of 5
+Lenovo,16gb,,intel,i5,11.0,carte graphique : intel® iris® xe graphics,,256.0,ssd,,noir,1.19,,"11,665.00 Dhs",0 out of 5
+DELL,16gb,ddr4,intel,i5,11.0,,1000.0,,hdd,,noir,1.78,,"6,599.00 Dhs",1 out of 5
+Hb,8go,ddr4,intel,i3,6.0, :  intel hd 520,,256.0,ssd,,noir,1.95,,"2,910.00 Dhs",2 out of 5
+DELL,8gb,ddr4,intel,i3,11.0,,1000.0,,hdd,,noir,1.78,,"5,399.00 Dhs",0 out of 5
+Hp,8go,ddr4,,,,,,,,,grismétallisé,delabatterie:204g,6cm,"8,899.00 Dhs",0 out of 5
+Lenovo,16go,ddr4,intel,i5,6.0,carte graphique : intel® hd graphics 520,,256.0,ssd,,noir,1.5,"14""","2,490.00 Dhs",0 out of 5
+Hp,82,ddr4,intel,i7,6.0,carte graphique : intel hd graphics 520,,256.0,ssd,,argent,,"5""","3,000.00 Dhs",1 out of 5
+Hp,8go,ddr4,intel,i5,10.0,,,250.0,ssd,,silver,1.74,"6""","6,290.00 Dhs",0 out of 5
+DELL,8gb,ddr4,intel,i3,11.0,,1000.0,,hdd,,noir,1.5,,"5,699.00 Dhs",1 out of 5
+Hp,8go,ddr4,intel,i5,7.0,,,512.0,ssd,,argent,1.5,,"5,900.00 Dhs",4 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,gris,1.28,,"2,490.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,gris,1.28,,"2,799.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0, : intel uhd graphics 520,,256.0,ssd,,,1,14pouce,"2,799.00 Dhs",5 out of 5
+Lenovo,16go,ddr3,intel,i5,5.0,,,,hdd,,noir,2,"14""","2,299.00 Dhs",0 out of 5
+Asus,4gb,,intel,i5,7.0,carte graphique: intel® hd 520,,,,,,2.79,"6""","7,190.00 Dhs",0 out of 5
+Lenovo,4go,ddr4,intel,i5,4.0,carte graphique : intel hd graphics 5500,,,ssd,128.0,noir,1.42,8cm,"1,999.00 Dhs",4 out of 5
+DELL,16go,ddr4,intel,i7,7.0,: intel uhd graphics 620,,256.0,ssd,,noir,1.2,14pouce,"3,500.00 Dhs",0 out of 5
+DELL,8go,ddr4,intel,i5,8.0,,,,ssd,,noir,1,"6""","5,299.00 Dhs",0 out of 5
+Hp,8go,ddr4,,,,,,256.0,ssd,,noirgris,2.3,,"2,099.00 Dhs",4.5 out of 5
+DELL,8go,ddr4,intel,i5,12.0,carte graphique intel iris xe intégrée,,,,,argent,1.4,"14""","6,800.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,carte graphique : intel hd graphics.,,,ssd,,argentnoir,2,"14""","2,750.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i7,6.0,,,256.0,ssd,,noiretargent,1.6,,"3,625.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,7.0,,,,ssd,256.0,gris,1.6,8cm,"4,499.00 Dhs",0 out of 5
+Hp,4gb,,intel,i3,10.0,carte graphique: intel® uhd,,,,,,4,"6""","4,700.00 Dhs",0 out of 5
+DELL,8go,ddr4,,,,: intel uhd graphics 620,,256.0,ssd,,noir,1.35,14pouce,"4,399.00 Dhs",0 out of 5
+Hp,16gb,ddr4,intel,i7,7.0,,,512.0,ssd,,noir,1.5,,"3,500.00 Dhs",5 out of 5
+DELL,8,ddr4,intel,i5,11.0,"carte
+graphique : intel® iris® xe",,256.0,ssd,,noir,1,,"7,400.00 Dhs",0 out of 5
+Msi,16go,,intel,i7,13.0,,,,ssd,,blacknoir,1.182,"4""","14,199.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,,1.48,14pouce,"2,690.00 Dhs",5 out of 5
+Hp,2,ddr4,intel,i5,6.0,,,256.0,ssd,7200000.0,noir,1.5,6cm,"6,599.00 Dhs",0 out of 5
+Acer,2go,ddr3,intel,,3.0,,,,,32.0,blanc,1,"6""","2,999.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i7,6.0,,,480.0,ssd,,noir,1.52,,"3,600.00 Dhs",0 out of 5
+DELL,16go,ddr3,intel,i5,6.0,nombre d'affichages pris en charge par la carte graphique intégrée	:   3,,256.0,ssd,7200000.0,noir,1.81,6cm,"3,289.00 Dhs",4 out of 5
+Lenovo,16,ddr4,intel,i5,11.0,carte graphique intel iris xe,,256.0,ssd,,gris,1.4,"14""","5,450.00 Dhs",0 out of 5
+DELL,8go,,,,,,,,,256.0,noir,1.5,,"2,790.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i5,6.0,,,256.0,ssd,,noiretargent,1.6,,"2,735.00 Dhs",3 out of 5
+Hp,4go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,noirargenté,2,,"1,999.00 Dhs",0 out of 5
+Lenovo,12gb,ddr4,intel,i5,10.0,,,,hdd,,noir,2.8,"6""","6,999.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i5,8.0,,,840.0,ssd,,gris,2.1,"14""","3,999.00 Dhs",0 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique  intel® uhd 600,,,ssd,,noir,1.64,"6""","2,189.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,8.0, : intel uhd graphics 620,,256.0,ssd,,,2,3pouce,"3,200.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,argentnoir,1.95,,"2,999.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,7.0,fréquence dynamique (max) de carte graphique intégrée : 1150 mhz,,256.0,ssd,256.0,gris,1.4,8cm,"4,990.00 Dhs",3 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique: intel® uhd graphics 600,,,,,noir,1,"6""","2,199.00 Dhs",0 out of 5
+Hp,4gb,,intel,i3,10.0,carte graphique: intel® uhd,,,,,,4,"6""","4,795.00 Dhs",4 out of 5
+Hp,8gb,ddr4,intel,i5,8.0,carte graphique intégrée  : oui,,256.0,ssd,256.0,gris,1.5,"3""","3,490.00 Dhs",0 out of 5
+Hp,4gb,,intel,i3,10.0,carte graphique : intel® uhd,1000.0,,hdd,,noir,3,"6""","3,645.00 Dhs",0 out of 5
+Hp,16go,,,,, ‎intel hd graphics 5500,,256.0,ssd,,noir,1.5,14pouce,"3,899.00 Dhs",5 out of 5
+DELL,00go,,intel,i5,6.0,,,128.0,ssd,,noir,1.26,"5""","3,999.00 Dhs",5 out of 5
+Hp,84,ddr3,intel,i5,5.0,carte graphique : intel hd graphics 5500,,,,1000.0,,2,"14""","3,900.00 Dhs",4.5 out of 5
+Acer,8go,,intel,i7,12.0,,,512.0,ssd,,noir,1.6,,"8,499.00 Dhs",0 out of 5
+Hp,00go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics 5500,,32.0,ssd,,noir,1.5,"14""","2,199.00 Dhs",3.6 out of 5
+Hp,00gb,ddr3,intel,i5,4.0,,,,,500.0,noir,,"14""","1,999.00 Dhs",3 out of 5
+Hp,82,ddr4,intel,i7,6.0,carte graphique : intel hd graphics 520,,256.0,ssd,,grismétallisé,1.26,"5""","3,399.00 Dhs",3.5 out of 5
+Fujitsu,8go,ddr4,,,,: intel uhd graphics 620,,,ssd,,,1.49,,"2,790.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0, : intel uhd graphics 520,,256.0,ssd,8.0,grisnoir,1,14pouce,"2,699.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i3,10.0,,,,,500.0,noir,3,,"4,650.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,contrôleur graphique : intel hd graphics 520,,256.0,ssd,,argentetnoir,1.6,,"4,000.00 Dhs",1 out of 5
+DELL,8gb,ddr4,intel,i3,11.0,carte graphique : intel uhd graphics,,256.0,ssd,,noir,2.5,,"3,999.00 Dhs",0 out of 5
+DELL,16,ddr4,,,,nom de la carte graphique : intel hd graphics 520,,,,,noir,1.5,,"3,950.00 Dhs",0 out of 5
+Latitude,8gb,ddr4,intel,i5,6.0,,,256.0,ssd,,noir,1.25,,"2,700.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i5,6.0,,,,,500.0,,2,"14""","2,550.00 Dhs",0 out of 5
+Hp,16gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,256.0,ssd,,gris,2,,"2,700.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics,,32.0,ssd,500.0,noir,1.5,"14""","2,199.00 Dhs",4 out of 5
+Hp,16go,ddr4,intel,i7,6.0,,,256.0,ssd,,argentetnoir,1.3,5pouce,"2,990.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i7,6.0,carte graphique : intel® hd graphics 520,,256.0,ssd,,gris,":1,48kg",,"3,990.00 Dhs",0 out of 5
+DELL,4gb,ddr4,intel,i3,11.0,"carte graphique :  intel hd graphics avec wifi, bluetooth",,,hdd,1000.0,noir,":1,78kg.",,"6,500.00 Dhs",1 out of 5
+DELL,8gb,ddr4,intel,i5,6.0,,,128.0,ssd,,noir,1.25,,"2,700.00 Dhs",3 out of 5
+Lenovo,32go,,intel,,21.0,,,512.0,ssd,,noir,"3,4",3pouce,"16,000.00 Dhs",0 out of 5
+Hp,2,ddr4,intel,i5,6.0,nombre d'affichages pris en charge par la carte graphique intégrée	:  3,,,,7200000.0,noir,1.5,6cm,"2,543.00 Dhs",0 out of 5
+Hp,16go,,,,,résolution maximum (hdmi) de carte graphique intégrée : 	4096 x 2304 pixels,,512.0,ssd,,noir,1.5,6cm,"3,150.00 Dhs",4.7 out of 5
+Hp,16go,,intel,i5,12.0,,,512.0,ssd,,argent,2,"14""","7,785.00 Dhs",0 out of 5
+Hp,32go,ddr4,intel,i7,8.0, : intel uhd graphics,,512.0,ssd,,gris,2,14pouce,"5,999.00 Dhs",0 out of 5
+Acer,,,intel,,5.0,,,128.0,ssd,,noir,1.2,5cm,"3,000.00 Dhs",0 out of 5
+Hp,2,ddr4,intel,i5,6.0,,,256.0,ssd,7200000.0,noir,1.5,6cm,"2,899.00 Dhs",5 out of 5
+Hp,8go,ddr4,,,,,,,ssd,256.0,argent,2,8cm,"4,799.00 Dhs",0 out of 5
+Lenovo,16go,,intel,i7,11.0,carte graphique intel iris xe,,256.0,ssd,,gris,1.13,"3""","8,999.00 Dhs",0 out of 5
+Kingston,,,,,,,,,hdd,240.0,noir,41g,5pouce,289.00 Dhs,4 out of 5
+Hp,16go,ddr4,intel,i5,8.0,,,256.0,ssd,,silver,2,"3""","4,199.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,5.0,,,,,,noir,1.5,"14""","2,100.00 Dhs",0 out of 5
+Hp,4go,,intel,i3,4.0,,,128.0,ssd,,,2,"14""","2,440.00 Dhs",3.7 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique  intel® uhd 600,,,,,noir,1.05,"6""","2,190.00 Dhs",0 out of 5
+Lenovo,12gb,ddr4,intel,i5,10.0,,,,ssd,,gris,3.6,"14""","7,249.00 Dhs",0 out of 5
+Hp,2,ddr4,intel,i5,6.0,nombre d'affichages pris en charge par la carte graphique intégrée	:  3,,,,7200000.0,noir,1.5,6cm,"2,543.00 Dhs",1 out of 5
+Hp,16go,,intel,i5,4.0,,,256.0,ssd,,noir,1.58,,"3,250.00 Dhs",5 out of 5
+Hp,8go,ddr3,intel,i5,5.0,,,128.0,ssd,,noir,1.52,,"2,999.00 Dhs",0 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique  intel® uhd 600,,,,,noir,1.05,"6""","2,299.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,7.0,,,512.0,ssd,,argent,1.6,,"6,999.00 Dhs",0 out of 5
+Infinix,8go,,,,,,,512.0,ssd,,gris,1,14pouce,"6,400.00 Dhs",4 out of 5
+DELL,16gb,ddr4,intel,i5,13.0,carte graphique :  intel uhd graphics.,,512.0,ssd,,gris,1.39,cm,"12,932.00 Dhs",0 out of 5
+Hp,4gb,ddr4,intel,i5,10.0,,,,,,,3,"6""","7,989.00 Dhs",0 out of 5
+DELL,12gb,ddr4,intel,i3,11.0,carte graphique: intel® hd,,,,256.0,noir,2.5,,"5,999.00 Dhs",0 out of 5
+Asus,4go,ddr3,intel,,3.0, intégré: intel® hd graphics 520,1000.0,,hdd,,grey,2.4,6pouce,"5,499.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i5,10.0,,,,hdd,500.0,noir,2.4,15pouce,"6,220.00 Dhs",0 out of 5
+Asus,4go,,intel,,4.0,,,,,1000.0,gris,,6pouce,"2,399.00 Dhs",3 out of 5
+Hp,12go,ddr4,intel,i5,10.0,carte graphique intégré: carte graphique intel® uhd,1000.0,,hdd,,argentcendréfoncé,1.74,"6""","6,999.00 Dhs",0 out of 5
+DELL,16go,,,,,,,,,256.0,noir,1.5,,"3,080.00 Dhs",1 out of 5
+Hp,12go,ddr4,,,,,1000.0,,hdd,,noir,1.78,15pouce,"6,599.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i5,10.0,carte graphique intégré: carte graphique intel® uhd,1000.0,,hdd,,argentcendréfoncé,1.74,"6""","5,970.00 Dhs",0 out of 5
+,,,,,,,,,,,,,,,
+DELL,8go,ddr4,intel,i5,12.0,,,,ssd,,argent,1.24,"6""","8,499.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i5,4.0,contrôleur graphique intel hd graphics 4600 (intégré au processeur),,256.0,ssd,,argentnoir,2,"14""","2,550.00 Dhs",3 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,gris,1.28,,"2,390.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,5.0,carte graphique : intel® hd graphics 5500,,,,,noir,1.63,,"2,300.00 Dhs",0 out of 5
+Hp,4gb,,intel,i3,10.0,carte graphique: intel® uhd,,,,,noir,4,"6""","4,635.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,intel,i5,6.0,carte graphique : intel® hd graphics 520,,256.0,ssd,,noir,1.5,"14""","2,440.00 Dhs",2 out of 5
+Hp,4go,ddr4,intel,i3,11.0,carte graphique: intégré,,2256.0,hdd,,noir,,,"6,350.00 Dhs",0 out of 5
+Hp,8go,,,,,,,256.0,ssd,,argent,0.162,"14""","3,299.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,intel,i5,8.0,,,256.0,ssd,,noir,1,"6""","2,799.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,argentnoir,1.95,,"2,899.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i5,6.0,,,,,500.0,,2,"14""","2,500.00 Dhs",0 out of 5
+DELL,16gb,ddr4,intel,i5,12.0,carte graphique : intel iris xe graphics,,256.0,ssd,,argent,1.32,,"13,810.00 Dhs",0 out of 5
+Lenovo,16go,ddr3,intel,i5,5.0,,,,hdd,,noir,2,"14""","2,499.00 Dhs",0 out of 5
+Medion,8gb,,,,,carte graphique : graphiques intégrés,,256.0,ssd,,argent,1.8,,"2,800.00 Dhs",0 out of 5
+DELL,8go,,,,,,,,,256.0,noir,2,,"2,650.00 Dhs",0 out of 5
+Hp,4go,ddr4,amd,5,5.0,,1000.0,,hdd,,noir,3,"6""","4,990.00 Dhs",0 out of 5
+Lenovo,16go,ddr3,intel,i5,5.0,,,,hdd,,noir,2,"14""","2,239.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i5,10.0,,1000.0,,hdd,,noir,2,"6""","5,290.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,,1.28,,"2,399.00 Dhs",5 out of 5
+Hp,32gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"4,799.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,5.0,,,256.0,ssd,,gris,1.5,,"2,300.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,5.0,,,160.0,ssd,,noir,1.5,"14""","2,300.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i5,6.0,carte graphique : intel® hd graphics 520,,256.0,ssd,,argent,1,,"3,850.00 Dhs",0 out of 5
+Hp,32gb,ddr4,intel,i7,7.0,,,1000.0,ssd,,gris,1.5,,"4,200.00 Dhs",0 out of 5
+Hp,00go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics 5500,,32.0,ssd,256.0,noir,1.5,"14""","3,899.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i7,4.0,contrôleur graphique	    :     intel hd graphics 5500 (intégré au processeur),,,hdd,,noir,1.6,"14""","4,199.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i5,10.0,carte graphique intégré: carte graphique intel® uhd,1000.0,,hdd,,noirargentfoncé,1.74,"6""","5,940.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,6.0,carte graphique : intel® hd graphics,,,,,noir,2.5,,"2,499.00 Dhs",0 out of 5
+DELL,16gb,ddr4,intel,i7,12.0,carte graphique: intel iris xe graphics,,512.0,ssd,,argent,1.59,,"15,730.00 Dhs",5 out of 5
+DELL,,,,,,,,,,,noir,0.25,,399.00 Dhs,3 out of 5
+Hp,00go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics,,32.0,ssd,,noir,1.5,"14""","2,995.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,8.0,,,256.0,ssd,,gris,2,"3""","3,999.00 Dhs",0 out of 5
+DELL,8gb,ddr4,intel,i5,6.0,,,256.0,ssd,,noir,1.25,,"7,500.00 Dhs",3.3 out of 5
+Hp,4go,,intel,i3,11.0,carte graphique: intel® iris® xᵉ,,256.0,ssd,,gris,2,6pouce,"4,500.00 Dhs",4 out of 5
+DELL,8gb,ddr4,intel,i5,6.0,,,256.0,ssd,,noir,1.25,,"6,500.00 Dhs",2.5 out of 5
+Hp,4go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,noirargenté,2,,"2,250.00 Dhs",0 out of 5
+DELL,16go,ddr3,intel,i5,6.0,nombre d'affichages pris en charge par la carte graphique intégrée	:   3,,256.0,ssd,7200000.0,noir,1.81,6cm,"4,500.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,5.0,,,,,,noir,1.5,,"3,800.00 Dhs",0 out of 5
+Hp,8go,ddr4,ryzen,5,5.0,,,,ssd,,grisfonce,,6pouce,"5,500.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i5,6.0,,,,ssd,,noirgris,1.5,,"3,500.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,gris,1.28,,"2,450.00 Dhs",4 out of 5
+Hp,12go,ddr4,intel,i5,10.0,carte graphique intégré: carte graphique intel® uhd,1000.0,,hdd,,noir,1.8,"6""","6,999.00 Dhs",0 out of 5
+Hp,4go,ddr4,ryzen,5,5.0,,,,,,grisfonce,,6pouce,"4,800.00 Dhs",0 out of 5
+Hp,8go,ddr4,,,,,,,ssd,256.0,gris,1.6,,"3,150.00 Dhs",0 out of 5
+Hp,3,,intel,i5,4.0,,,,ssd,,argent,1.6,"14""","4,500.00 Dhs",1 out of 5
+Hp,40go,,,,,carte graphique : radeon 4 go,,,,,,1.6,5pouce,"4,300.00 Dhs",0 out of 5
+Hp,4go,ddr3,intel,i5,4.0,,,,,,noir,2,0pouce,"1,979.00 Dhs",0 out of 5
+Hp,12go,ddr4,intel,i5,10.0,,,,hdd,500.0,noir,2.4,15pouce,"9,699.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,noir,2,,"3,090.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i3,6.0, : intel hd 520,,256.0,ssd,,grisnoir,1.5,,"2,990.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i3,6.0, :  intel hd 520,,256.0,ssd,,noir,1.95,,"1,800.00 Dhs",0 out of 5
+Kingston,,,,,,,,,hdd,240.0,noirgris,41g,5pouce,385.00 Dhs,4.6 out of 5
+Hp,8go,ddr4,intel,i5,6.0, : intel uhd graphics 520,,256.0,ssd,,,1,14pouce,"3,999.00 Dhs",0 out of 5
+Hp,8go,ddr3,intel,i5,4.0,,,,,,noir,2,,"2,799.00 Dhs",3 out of 5
+Hp,16go,ddr4,intel,i5,8.0, : intel uhd graphics 620,,256.0,ssd,,gris,2,3pouce,"4,599.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,,2,,"2,010.00 Dhs",3.8 out of 5
+Lenovo,8go,ddr3,intel,i5,6.0,carte graphique : intel® hd graphics,,,,,noir,2.5,,"2,599.00 Dhs",0 out of 5
+Hp,12go,ddr4,intel,i5,11.0,carte graphique : carte graphique intel® iris® xᵉ intégré,,256.0,ssd,,noir,1.75,,"6,999.00 Dhs",0 out of 5
+Hp,8go,,intel,i5,5.0,,,240.0,ssd,,noir,1.58,,"4,500.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,,,"3,190.00 Dhs",0 out of 5
+Lenovo,32gb,ddr4,amd,7,5.0,carte graphique: amd radeon™ graphics,,512.0,ssd,,noir,1.28,,"15,730.00 Dhs",0 out of 5
+Lenovo,4go,,,,,nom de la carte graphique : intel hd graphics 4400,,,,500.0,noir,1,,"2,100.00 Dhs",0 out of 5
+Lenovo,4go,ddr3,intel,i5,4.0,carte graphique : intel® hd graphics,,,,,noir,1.8,,"2,120.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,4.0,,,,,,noir,1.8,"14""","2,399.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,4.0,carte graphique : intel® hd graphics,,,,,noir,1.8,,"2,300.00 Dhs",4 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,argentnoir,1.95,,"2,899.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i5,6.0,,,,ssd,128.0,argentclair,":1,26kg",8cm,"2,400.00 Dhs",4 out of 5
+Hp,8go,ddr4,intel,i5,6.0,contrôleur graphique : intel hd graphics 520,,240.0,ssd,,argentnoir,1.6,,"2,399.00 Dhs",0 out of 5
+Hp,2,ddr4,intel,i7,7.0,nombre d'affichages pris en charge par la carte graphique intégrée :  3,,256.0,ssd,7200000.0,noiretargent,1,6cm,"3,299.00 Dhs",4 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,240.0,ssd,,noirargent,1.95,,"2,490.00 Dhs",0 out of 5
+Kingston,,,,,,,,,hdd,240.0,noirgris,41g,5pouce,460.00 Dhs,0 out of 5
+Hp,8go,ddr4,intel,i3,6.0, :  intel hd 520,1000.0,,hdd,,,1.95,,"2,700.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,gris,1.28,,"2,450.00 Dhs",3 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,256.0,ssd,,noir,,,"2,700.00 Dhs",2.5 out of 5
+Hp,2,ddr4,intel,i5,6.0,nombre d'affichages pris en charge par la carte graphique intégrée	:  3,,,,7200000.0,noir,1.5,6cm,"2,799.00 Dhs",5 out of 5
+Hp,16go,ddr4,intel,i3,6.0, :  intel hd 520,,256.0,ssd,,noir,1.95,,"1,999.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,noir,1.95,,"2,450.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i5,10.0,carte graphique intégré: carte graphique intel® uhd,1000.0,,hdd,,argentcendréfoncé,1.74,"6""","5,990.00 Dhs",0 out of 5
+Lenovo,4go,ddr3,intel,i5,4.0,carte graphique : intel® hd graphics,,,,,noir,1.8,,"2,100.00 Dhs",1 out of 5
+Lenovo,8go,ddr3,intel,i5,4.0,,,,,,noir,1.5,"14""","2,300.00 Dhs",0 out of 5
+DELL,32gb,ddr4,intel,i7,11.0,carte graphique: intel uhd graphics,,512.0,ssd,,,1.49,,"19,160.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,4.0,carte graphique : intel® hd graphics,,,,,noir,2,,"2,299.00 Dhs",1 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,,,,gris,1.28,,"2,200.00 Dhs",4.3 out of 5
+Hp,16gb,ddr4,amd,5,5.0,carte graphique : amd radeon™ graphics,,256.0,ssd,,argent,1.38,,"9,525.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i7,6.0,contrôleur graphique : intel hd graphics 520,,256.0,ssd,,noir,1,,"2,900.00 Dhs",0 out of 5
+Hp,16gb,,intel,i7,7.0,carte graphique :  intel® hd 260,,512.0,ssd,,argent,1.29,"3""","4,999.00 Dhs",1 out of 5
+Hp,8go,,intel,i5,4.0,,,,,,noir,1.5,,"2,900.00 Dhs",3.5 out of 5
+Hp,8go,ddr3,intel,i5,4.0,,,,,500.0,noir,2,"14""","1,799.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,hdd,,,,,"2,799.00 Dhs",4.8 out of 5
+Lenovo,8go,ddr4,intel,i5,5.0,,,256.0,ssd,,noir,1,"14""","3,699.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,intel,i5,6.0,carte graphique : intel hd graphics 520,,,ssd,,noir,1.5,8cm,"2,098.00 Dhs",4 out of 5
+DELL,8go,ddr4,,,,,,256.0,hdd,,argentetnoir,1.3,,"3,290.00 Dhs",0 out of 5
+Lenovo,16go,ddr4,intel,i5,6.0,carte graphique : intel® hd graphics 520,,256.0,ssd,,noir,1.5,"14""","2,490.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i7,6.0,carte graphique : intel® hd graphics,,256.0,ssd,,noir,1.6,,"3,599.00 Dhs",0 out of 5
+Hp,8go,ddr4,,,,: intel hd 620,,256.0,ssd,,silver,1.28,3pouce,"5,299.00 Dhs",0 out of 5
+Lenovo,16go,ddr4,intel,i5,6.0,carte graphique : intel uhd graphircs 620,,256.0,ssd,,noir,1.65,,"3,200.00 Dhs",4.5 out of 5
+Hp,84,ddr3,intel,i5,4.0,carte graphique : intel hd graphics 5500,,,ssd,,,2,"14""","7,500.00 Dhs",4 out of 5
+DELL,16go,ddr4,intel,i5,8.0,: intel uhd graphics 620,,256.0,ssd,,noir,1.2,"14""","3,200.00 Dhs",0 out of 5
+Msi,16go,,intel,i7,13.0,,,,ssd,,black,1.34,6pouce,"18,299.00 Dhs",0 out of 5
+Hp,32gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"3,799.00 Dhs",5 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"2,620.00 Dhs",5 out of 5
+Hp,16go,ddr4,intel,i5,5.0,,,512.0,ssd,,gris,1.4,13pouce,"4,999.00 Dhs",0 out of 5
+Toshiba,8go,ddr3,intel,i5,3.0,,,128.0,ssd,,noir,1.6,"3""","1,999.00 Dhs",0 out of 5
+Apple,8go,,,,,carte graphique : apple m1  8 coeurs,,,,256.0,grissidéral,1.24,3pouce,"8,999.00 Dhs",0 out of 5
+Lenovo,8go,,intel,i5,5.0,carte graphique    intégré : intel hd 520® hd,,,,,noir,2,"14""","2,199.00 Dhs",2.7 out of 5
+Hp,4go,ddr3,intel,i3,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,,,320.0,noir,2,"14""","1,699.00 Dhs",3.1 out of 5
+Hp,8go,ddr3,intel,i5,4.0,contrôleur graphique intel hd graphics 4600 (intégré au processeur),,,,500.0,noiretargent,1.6,"14""","1,899.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"2,799.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i7,6.0,carte graphique 2 :  nvidia quadro m2000m – 4go gddr5,,256.0,ssd,,noir,1.5,,"5,500.00 Dhs",4 out of 5
+Hp,16go,ddr4,,,,,,,ssd,512.0,argent,1,,"4,900.00 Dhs",0 out of 5
+Lenovo,4gb,ddr4,intel,,4.0,carte graphique:integrated intel uhd graphics 600,,256.0,ssd,,abyssblue,1.7,"6""","2,999.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,7.0,,,512.0,ssd,,gris,1.4,8cm,"4,999.00 Dhs",0 out of 5
+Hp,8go,ddr3,,,,carte graphique intégrée intel iris graphics 6100,,128.0,ssd,,grisetnoir,2,3pouce,"4,999.00 Dhs",5 out of 5
+Lenovo,8go,ddr3,intel,i5,6.0,carte graphique : intel® hd graphics,,,,,noir,2.5,,"2,499.00 Dhs",5 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,256.0,ssd,,gris,2,,"2,490.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i7,7.0,,,512.0,ssd,,gris,1.4,13pouce,"6,999.00 Dhs",4 out of 5
+Hp,8go,,intel,,5.0,"sorties de la carte graphique prises en charge : 	display port, embedded display port (edp), hdmi",,256.0,ssd,,noir,0.5,,"2,299.00 Dhs",0 out of 5
+Hp,8go,,intel,i3,3.0,,,512.0,ssd,,argent,,6pouce,"6,600.00 Dhs",4 out of 5
+Hp,8go,ddr4,intel,i5,8.0,carte graphique intégrée  : oui,,256.0,ssd,256.0,duproduitargent,1.48,"14""","3,299.00 Dhs",5 out of 5
+Hp,8go,ddr4,,,,: intel hd 620,,256.0,ssd,,argent,1.28,3pouce,"3,900.00 Dhs",0 out of 5
+Hp,32gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"3,999.00 Dhs",1 out of 5
+Asus,4gb,,intel,,5.0,,,,,128.0,noir,1.3,"14""","2,799.00 Dhs",0 out of 5
+,,,,,,,,,,,,,,,
+Hp,16,ddr4,intel,i7,8.0,,,256.0,ssd,,gris,1.48,,"4,300.00 Dhs",0 out of 5
+Asus,8,ddr4,amd,3,3.0,carte graphique : amd radeon™ graphics,,256.0,ssd,,bleu,1.6,,"5,490.00 Dhs",0 out of 5
+DELL,8gb,ddr4,intel,i5,11.0,carte graphique : intel® iris® xe graphics,,256.0,ssd,,noir,1.52,cm,"9,850.00 Dhs",0 out of 5
+DELL,8gb,ddr4,intel,i3,11.0,carte graphique : intel® iris® xe graphics,,256.0,ssd,,noir,1.78,cm,"5,390.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i7,6.0,,,512.0,ssd,,noiretargent,1.6,,"4,409.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,7.0,,,,ssd,256.0,gris,1.4,8cm,"4,299.00 Dhs",5 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique: intel® uhd graphics 600,,,,,rose,1.3,"0""","2,199.00 Dhs",2 out of 5
+Hp,16gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,,,,gris,1.5,,"2,899.00 Dhs",2.3 out of 5
+Asus,4gb,,intel,,5.0,,,,,128.0,noir,1.3,"14""","2,499.00 Dhs",0 out of 5
+Apple,,,,,,"apple m1 pro & 8‑core cpu, 14‑core , 16‑core neural engine",,512.0,ssd,,grissidéral,1.34,,"21,499.00 Dhs",0 out of 5
+Apple,8go,,,,,,,,,,spacegrey,1.24,6pouce,"15,175.00 Dhs",0 out of 5
+Hp,16go,ddr4,,,,,,,ssd,512.0,argent,2,,"4,800.00 Dhs",0 out of 5
+Fujitsu,8gb,ddr3,intel,i5,4.0,,,,,,noir,1.6,,"1,999.00 Dhs",0 out of 5
+Hp,64gb,ddr4,amd,7,5.0,carte graphique : amd radeon graphics,,512.0,ssd,,argent,1.7,,"14,660.00 Dhs",0 out of 5
+DELL,8go,ddr4,intel,i5,5.0,carte graphique : intégrée - intel uhd graphics 620,,256.0,ssd,,noir,1.19,,"2,790.00 Dhs",0 out of 5
+DELL,8go,ddr4,intel,i5,7.0,,,256.0,ssd,,noir,2,1pouce,"4,900.00 Dhs",0 out of 5
+Hp,32go,ddr4,intel,i7,10.0,carte graphique: nvidia quadro t1000 - 4 go gddr5,,512.0,ssd,,argent,2,,"10,862.00 Dhs",0 out of 5
+Asus,,,,,,"carte graphique : nvidia geforce rtx 3050
+ti laptop  - 4096 mo, processeur: 32g ddr4",,,,512.0,gris,2.5,30pouce,"14,500.00 Dhs",3 out of 5
+Asus,8go,ddr4,intel,i5,11.0,: nvidia rtx 3050ti 4 go gddr6,,512.0,ssd,,noir,2,,"11,890.00 Dhs",0 out of 5
+Msi,16go,ddr4,intel,i7,12.0,,,,ssd,,noir,1.98,"6""","14,499.00 Dhs",0 out of 5
+DELL,,,intel,i5,8.0,,,256.0,ssd,,noir,21,,"4,499.00 Dhs",0 out of 5
+Razer,16go,ddr4,intel,i7,10.0,,,512.0,ssd,,noir,2.7,"6""","16,599.00 Dhs",0 out of 5
+Hp,16gb,ddr4,intel,,28.0,,,512.0,ssd,,noir,2.5,"1""","12,499.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i7,6.0,carte graphique : intégrée intel hd graphics 520,,256.0,hdd,,noiretargent,2.5,,"3,719.00 Dhs",0 out of 5
+DELL,32gb,,intel,i7,12.0,ports : 2 ports thunderbolt™ 4 avec (usb-c™); 1 port usb-c 3.2 gen 2 avec mode alternatif displayport; 1 port usb 3.2 gen 1 avec powershare; 1 port usb 3.2 gen 1; 1 port hdmi 2.0a (uma)/1 port hdmi 2.1 (d); 1 port ethernet rj45; 1 port casque (combiné casque et microphone).,,1000.0,ssd,,gris,2.67,,"34,030.00 Dhs",0 out of 5
+Msi,8go,,intel,i7,12.0,,,512.0,ssd,,black,1.31,"3""","12,000.00 Dhs",0 out of 5
+Hp,20gb,ddr3,intel,i3,4.0,,,,,320.0,,2,"14""","2,250.00 Dhs",3.9 out of 5
+Acer,32go,ddr4,,,,,,1000.0,ssd,,noir,1,,"19,000.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i7,6.0,contrôleur graphique : intel hd graphics 520,,256.0,ssd,,argent,":1,28kg",,"2,850.00 Dhs",2 out of 5
+,,,,,,,,,,,,,,,
+Lenovo,16go,ddr4,intel,i5,11.0,,,,ssd,,noir,2,"6""","7,799.00 Dhs",0 out of 5
+Microsoft,8,ddr4,,,,carte graphique : intel iris plus graphics g7,,128.0,ssd,,,1.265,"3""","9,900.00 Dhs",0 out of 5
+DELL,8go,,intel,i5,6.0,,,,,,noir,1.6,,"2,749.00 Dhs",0 out of 5
+Hp,8go,ddr4,,,,"processeur : processeur amd ryzen™ 5 4500u avec carte graphique radeon™ vega 8 (2,1 ghz de fréquence de base, jusqu’à 3,7 ghz de fréquence de rafale, 6 mo de mémoire cache, 4 cœurs)",,2512.0,ssd,,noir,2,,"5,970.00 Dhs",4.4 out of 5
+Hp,64gb,,intel,i7,12.0,carte graphique : nvidia rtx™ a1000 4 gb gddr6 & intel iris xe graphics.,,512.0,ssd,,argent,1.93,,"24,185.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i7,6.0,contrôleur graphique : intel hd graphics 520,,256.0,ssd,,argentnoir,1.6,,"2,799.00 Dhs",0 out of 5
+DELL,8go,,intel,i5,6.0,,,,,,noir,1.6,,"2,699.00 Dhs",5 out of 5
+Hp,16go,ddr4,intel,i7,9.0,,,512.0,ssd,,noir,2.4,"6""","18,999.00 Dhs",0 out of 5
+Hp,8go,,,,,résolution maximum (hdmi) de carte graphique intégrée : 4096 x 2304 pixels,,,,,argentetnoir,1.6,6cm,"2,499.00 Dhs",0 out of 5
+Hp,,,,,,,,,,,argent,,,"2,950.00 Dhs",0 out of 5
+DELL,32go,,intel,i7,12.0,carte graphique : nvidia geforce rtx 3050  4 go gddr6/intel® iris® xe graphics,,1000.0,ssd,,argent,1.92,,"28,465.00 Dhs",0 out of 5
+Hp,64gb,ddr4,intel,i5,12.0,carte graphique :  intel uhd graphics.,,256.0,ssd,,argent,1.28,,"13,270.00 Dhs",0 out of 5
+Hp,4go,ddr4,intel,i3,6.0, :  intel hd 520,1000.0,,hdd,,noir,2,,"2,304.00 Dhs",0 out of 5
+Asus,8,ddr4,amd,3,3.0,carte graphique : amd radeon™ graphics,,256.0,ssd,,bleu,1.6,,"5,490.00 Dhs",0 out of 5
+DELL,32gb,,intel,i7,12.0,ports : 2 ports thunderbolt™ 4 avec (usb-c™); 1 port usb-c 3.2 gen 2 avec mode alternatif displayport; 1 port usb 3.2 gen 1 avec powershare; 1 port usb 3.2 gen 1; 1 port hdmi 2.0a (uma)/1 port hdmi 2.1 (d); 1 port ethernet rj45; 1 port casque (combiné casque et microphone).,,1000.0,ssd,,gris,2.67,,"31,995.00 Dhs",0 out of 5
+Asus,8,ddr4,amd,3,3.0,carte graphique : amd radeon™ graphics,,256.0,ssd,,bleu,1.6,,"5,490.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,intel,i7,8.0,,,,,256.0,noir,1,14pouce,"4,999.00 Dhs",0 out of 5
+DELL,4gb,ddr4,intel,i3,11.0,,,256.0,ssd,,noir,1.78,,"4,490.00 Dhs",0 out of 5
+Hp,8go,,intel,i5,6.0,. intel hd graphics 520,,256.0,ssd,,gris,2,,"2,890.00 Dhs",4.1 out of 5
+Lenovo,8go,ddr4,,,,carte graphique : intel hd graphics 5500,,,ssd,128.0,noir,1.42,8cm,"2,099.00 Dhs",3 out of 5
+DELL,8gb,ddr4,intel,i3,11.0,carte graphique : intel® iris® xe graphics,,256.0,ssd,,noir,1.78,cm,"5,390.00 Dhs",0 out of 5
+Hp,16gb,ddr3,intel,i5,11.0,carte graphique :  intel® iris® xᵉ,,256.0,ssd,,,1.32,,"15,800.00 Dhs",5 out of 5
+DELL,8,ddr4,intel,i5,10.0,carte graphique:  intel uhd 620,,256.0,ssd,,argent,1.82,,"7,170.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i7,7.0,,,256.0,ssd,,noir,,,"20,000.00 Dhs",0 out of 5
+Hp,64gb,ddr4,intel,i5,12.0,carte graphique :  intel uhd graphics.,,256.0,ssd,,argent,1.74,,"13,270.00 Dhs",0 out of 5
+Lenovo,16gb,ddr4,amd,5,5.0,carte graphique : amd radeon graphics,,512.0,ssd,,noir,1.39,,"13,060.00 Dhs",0 out of 5
+DELL,4gb,ddr3,intel,i3,8.0,,,,,2128.0,,1.18,"3""","4,190.00 Dhs",0 out of 5
+DELL,16gb,ddr4,intel,i7,12.0,carte graphique : intel iris xe graphics.,,512.0,ssd,,noir,1.22,,"17,020.00 Dhs",0 out of 5
+DELL,32go,,intel,i7,12.0,carte graphique : nvidia geforce rtx 3050  4 go gddr6/intel® iris® xe graphics,,1000.0,ssd,,argent,1.92,,"28,465.00 Dhs",0 out of 5
+DELL,16go,ddr4,intel,i7,11.0,carte graphique :  intel® iris xe,,512.0,ssd,,gris,1.16,,"10,799.00 Dhs",0 out of 5
+Lenovo,16gb,ddr4,amd,5,5.0,carte graphique : amd radeon graphics,,512.0,ssd,,noir,1.39,,"13,060.00 Dhs",0 out of 5
+Hp,64gb,,intel,i7,12.0,carte graphique : nvidia rtx™ a1000 4 gb gddr6 & intel iris xe graphics.,,512.0,ssd,,argent,1.93,,"24,185.00 Dhs",0 out of 5
+Hp,12gb,ddr4,intel,i5,10.0,carte graphique: intel uhd graphics,1000.0,,hdd,,noir,1.74,,"7,699.00 Dhs",0 out of 5
+Hp,32,,intel,i7,12.0,carte graphique :  intel® iris® xe graphics,,1000.0,ssd,,argent,1.28,,"18,840.00 Dhs",0 out of 5
+Hp,64gb,,intel,i7,12.0,carte graphique : nvidia rtx™ a1000 4 gb gddr6 & intel iris xe graphics.,,512.0,ssd,,argent,1.93,,"24,185.00 Dhs",0 out of 5
+DELL,32go,,intel,i7,12.0,carte graphique : nvidia geforce rtx 3050  4 go gddr6/intel® iris® xe graphics,,1000.0,ssd,,argent,1.92,,"28,465.00 Dhs",0 out of 5
+DELL,8,,,,,nom de la carte graphique : intel hd graphics 520,,,ssd,,noir,2,,"2,600.00 Dhs",0 out of 5
+DELL,8gb,ddr4,intel,i3,11.0,carte graphique : intel® iris® xe graphics,,256.0,ssd,,noir,1.78,cm,"5,390.00 Dhs",0 out of 5
+DELL,16gb,ddr4,intel,i5,12.0,carte graphique: intel iris xe graphics,,512.0,ssd,,argent,1.36,,"12,200.00 Dhs",0 out of 5
+Hp,16,ddr4,intel,i7,11.0,,,512.0,ssd,,argent,1.35,,"20,250.00 Dhs",0 out of 5
+Lenovo,16gb,,amd,7,6.0,carte graphique : amd radeon™ 680m graphics,,512.0,ssd,,noir,1.36,"14""","17,760.00 Dhs",0 out of 5
+Asus,4gb,ddr4,intel,,4.0,carte graphique: intel® uhd graphics 600,,,,,rose,1.3,"0""","4,399.00 Dhs",0 out of 5
+Lenovo,16gb,ddr4,intel,i7,11.0,carte graphique: intel® iris® xe graphics,,512.0,ssd,,noir,1.47,,"16,695.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i7,6.0,,,256.0,ssd,,,2,,"3,500.00 Dhs",0 out of 5
+DELL,16gb,ddr4,intel,i5,12.0,carte graphique: intel iris xe graphics,,256.0,ssd,,argent,1.36,,"11,450.00 Dhs",0 out of 5
+DELL,32go,,intel,i7,12.0,carte graphique : nvidia geforce rtx 3050  4 go gddr6/intel® iris® xe graphics,,1000.0,ssd,,argent,1.92,,"28,465.00 Dhs",0 out of 5
+Hp,16,ddr4,intel,i5,11.0,carte graphique :  intel uhd graphics,,512.0,ssd,,argent,1.17,33cm,"14,875.00 Dhs",0 out of 5
+Lenovo,16gb,ddr4,amd,5,5.0,carte graphique : amd radeon graphics,,512.0,ssd,,noir,1.39,,"13,060.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i3,6.0, :  intel hd 520,,128.0,ssd,,,2,,"2,156.00 Dhs",4 out of 5
+DELL,8go,ddr3,intel,i7,5.0,contrôleur graphique	intel hd graphics 5500 (intégré au processeur),,256.0,hdd,,noir,1.6,"14""","2,599.00 Dhs",3.5 out of 5
+Lenovo,8go,ddr3,intel,i5,5.0,carte graphique : intel® hd graphics 5500,,160.0,ssd,,noir,1.5,,"2,199.00 Dhs",0 out of 5
+DELL,8gb,ddr4,intel,i5,8.0,. intel uhd graphics 620,,256.0,ssd,,noir,1,,"4,200.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,gris,1.28,,"2,339.00 Dhs",5 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,gris,1.48,14pouce,"3,400.00 Dhs",0 out of 5
+Hp,8gb,ddr4,intel,i5,6.0,. intel hd graphics 520,,256.0,ssd,,gris,4,,"2,500.00 Dhs",0 out of 5
+DELL,16gb,ddr4,intel,i5,11.0,carte graphique: intel iris xe graphics,,256.0,ssd,,argent,1.36,,"11,235.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i3,6.0, :  intel hd 520,,,,,noir,1.95,,"2,156.00 Dhs",0 out of 5
+Hp,00go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics,,32.0,ssd,500.0,noir,1.5,"14""","2,199.00 Dhs",0 out of 5
+Hp,00go,ddr3,intel,i5,5.0,carte graphique :  intel hd graphics,,32.0,ssd,500.0,noir,1.5,"14""","2,199.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,8.0,,,256.0,ssd,,argent,1.53,"14""","4,799.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,intel,i5,5.0,carte graphique intel hd 520 intégrée,,,,,noir,2.2,,"1,999.00 Dhs",0 out of 5
+Lenovo,16gb,ddr4,,,,carte graphique : intel® iris® xe graphics,,256.0,ssd,,noir,1.4,,"7,391.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,5.0,carte graphique : intel® hd graphics 5500,,,ssd,,noir,1.63,,"2,199.00 Dhs",0 out of 5
+Fujitsu,8go,ddr4,intel,i5,8.0, : intel® hd 620,,,,,noir,1.49,,"2,750.00 Dhs",0 out of 5
+Hp,16go,ddr4,,,,: intel uhd 520,,256.0,ssd,,argentetnoir,1.48,,"2,799.00 Dhs",0 out of 5
+Lenovo,32gb,ddr4,intel,i7,12.0,carte graphique : intel® iris® xe graphics,,512.0,ssd,,noir,1.36,,"18,832.00 Dhs",0 out of 5
+Lenovo,,,,,,,,,,,noir,1.8,,"2,300.00 Dhs",0 out of 5
+Lenovo,,,,,,,,,,,noir,1.8,,"2,300.00 Dhs",0 out of 5
+Lenovo,8go,ddr3,intel,i5,4.0,,,,,,noir,1.5,"14""","2,350.00 Dhs",4 out of 5
+Apple,,,,,,,,,,,midnight,1.24,,"14,975.00 Dhs",0 out of 5
+Hp,32go,ddr4,intel,i7,8.0, : intel uhd graphics 620,,512.0,ssd,,gris,3,3pouce,"5,500.00 Dhs",0 out of 5
+Hp,32go,ddr4,,,,,,,ssd,,noir,2.65,6pouce,"4,250.00 Dhs",0 out of 5
+Apple,16go,,,,,carte graphique :intégrée - intel uhd 630 + radeon pro 560x,,512.0,ssd,,gris,1,"4""","9,700.00 Dhs",0 out of 5
+Hp,32go,ddr4,intel,i7,7.0,,,,ssd,,noir,2.65,6pouce,"5,800.00 Dhs",0 out of 5
+DELL,8go,ddr3,intel,i7,4.0,contrôleur graphique	intel hd graphics 5500 (intégré au processeur),,256.0,hdd,,noir,1.6,"14""","2,399.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i3,6.0, :  intel hd 520,,128.0,ssd,,noir,1.95,,"1,840.00 Dhs",0 out of 5
+Hp,32go,ddr4,intel,i7,7.0, : amd radeon pro wx3100,,,ssd,,gris,2,,"8,500.00 Dhs",0 out of 5
+Apple,8go,,,,,	  :    ‎intel hd graphics  6000,,128.0,ssd,,argent,1.6,3pouce,"5,699.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i5,8.0, : intel uhd graphics 620,,256.0,ssd,,gris,1.5,"14""","3,499.00 Dhs",0 out of 5
+Apple,4go,,,,,	  :    ‎intel hd graphics  6000,,128.0,ssd,,argent,1.6,3pouce,"5,699.00 Dhs",0 out of 5
+Apple,8go,ddr3,intel,i5,6.0,carte graphique: intégrée - intel iris graphics 550,,500.0,ssd,,gris,1,,"4,874.00 Dhs",0 out of 5
+Apple,,,,,,,,,,,starlight,1.24,,"15,275.00 Dhs",0 out of 5
+Apple,,,,,,,,,,,silver,1.24,,"15,275.00 Dhs",0 out of 5
+Asus,4go,,intel,i3,11.0,carte graphique: intel iris xe,,256.0,ssd,,bleu,1.73,"6""","4,290.00 Dhs",0 out of 5
+DELL,16gb,ddr4,intel,i5,13.0,carte graphique :  intel uhd graphics.,,256.0,ssd,,gris,1.613,,"11,990.00 Dhs",0 out of 5
+Asus,4go,ddr4,intel,i3,10.0,,1000.0,,hdd,,grey,1.9,,"4,799.00 Dhs",0 out of 5
+Lenovo,16gb,,intel,i7,11.0,carte graphique : intel® iris® xe graphics,,512.0,ssd,,noir,1.2,,"24,396.00 Dhs",0 out of 5
+DELL,8go,,,,,,,,,256.0,noir,,,"2,749.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i5,8.0, : intel uhd graphics 620,,256.0,ssd,,gris,1.51,14pouce,"4,250.00 Dhs",0 out of 5
+DELL,32gb,ddr4,intel,i7,12.0,carte graphique : intel iris xe graphics.,,512.0,ssd,,noir,1.22,,"18,725.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i7,8.0, : intel uhd graphics 620,,256.0,ssd,,gris,3,3pouce,"4,900.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,8.0, : intel uhd graphics 620,,256.0,ssd,,gris,1.51,14pouce,"3,980.00 Dhs",0 out of 5
+Hp,32go,,intel,i7,7.0,,,1000.0,ssd,,gris,1.6,6cm,"4,500.00 Dhs",0 out of 5
+Lenovo,8go,ddr4,intel,i5,6.0,carte graphique : intel® hd graphics 520,,256.0,ssd,,noir,1.5,"14""","2,899.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,8.0, : intel uhd graphics 620,,256.0,ssd,,gris,1.51,14pouce,"3,990.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i5,8.0, : intel uhd graphics 620,,256.0,ssd,,gris,1.51,14pouce,"4,250.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,8.0,,,256.0,ssd,,argent,1.33,"3""","3,199.00 Dhs",0 out of 5
+Hp,32go,ddr4,intel,i7,8.0, : intel uhd graphics 620,,512.0,ssd,,gris,3,3pouce,"5,450.00 Dhs",0 out of 5
+Lenovo,16go,,intel,i7,7.0,description de la carte graphique    :     intégrée,,256.0,ssd,,noir,1.6,14pouce,"4,899.00 Dhs",0 out of 5
+Hp,16go,ddr4,intel,i7,8.0, : intel uhd graphics 620,,256.0,ssd,,gris,3,3pouce,"4,890.00 Dhs",0 out of 5
+Hp,8go,ddr4,intel,i5,6.0,contrôleur graphique : intel hd graphics 520,,240.0,ssd,,argentnoir,1.6,,"2,299.00 Dhs",3 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,256.0,ssd,,gris,1.28,,"2,390.00 Dhs",2.9 out of 5
+Hp,8go,ddr3,intel,i3,4.0,contrôleur graphique	intel hd graphics 4600 (intégré au processeur),,,,500.0,noiretargent,2,"14""","1,799.00 Dhs",2.7 out of 5
+Hp,8go,ddr4,intel,i5,6.0,,,,,,gris,1.28,,"2,300.00 Dhs",2.9 out of 5
+Hp,2,ddr4,intel,i5,6.0,nombre d'affichages pris en charge par la carte graphique intégrée	:  3,,,,7200000.0,noir,1.5,6cm,"2,560.00 Dhs",2.2 out of 5
+Hp,4go,ddr3,intel,,4.0,,,,,320.0,noir,2,"14""","1,799.00 Dhs",3 out of 5
+Lenovo,2gb,,intel,,3.0,,,,,500.0,,,,"2,999.00 Dhs",3.7 out of 5
+DELL,4go,,intel,i5,4.0,,,,,,noir,,"6""","6,720.00 Dhs",0 out of 5
+Lenovo,50,,,,,,,,,,,,,"2,799.00 Dhs",5 out of 5
+Lenovo,50,,,,,,,,,,,,,"2,799.00 Dhs",5 out of 5
+Asus,2go,,intel,,28.0,,,,,,blanc,,"6""","3,324.00 Dhs",0 out of 5
+Lenovo,4go,,intel,i3,6.0,,,,,,,,,"4,190.00 Dhs",0 out of 5
+Lenovo,50,,,,,,,,,,,,,"2,799.00 Dhs",0 out of 5
