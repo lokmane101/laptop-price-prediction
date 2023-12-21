@@ -1,13 +1,14 @@
 import pandas as pd
 
-# Assuming you have an existing DataFrame
-df = pd.DataFrame({'Name': ['John', 'Alice'], 'Age': [25, 30]})
+# Exemple de deux DataFrames
+df1 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+df2 = pd.DataFrame({'C': [10, 11, 12],'A': [7, 8, 9]})
 
-# Create a new row as a dictionary
-new_row = {'Name': 'Bob', 'Age': 28}
+# Concaténer les deux DataFrames
+resultat = pd.concat([df1, df2], sort=False)
 
-# Append the new row to the DataFrame
-df = df._append(new_row, ignore_index=True)
+# Remplacer les valeurs manquantes par des zéros
+resultat = resultat.fillna(0)
 
-# Print the updated DataFrame
-print(df)
+# Afficher le résultat
+print(resultat)
